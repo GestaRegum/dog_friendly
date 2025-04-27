@@ -1,0 +1,50 @@
+input[type=checkbox].yellow-checkbox {
+  width: 0;
+  height: 20px;
+  margin-right: 20px;
+  position: relative;
+}
+input[type=checkbox].yellow-checkbox::before {
+  width: 0;
+  height: 0;
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+input[type=checkbox].yellow-checkbox::after {
+  width: 20px;
+  height: 20px;
+  content: " ";
+  border-radius: 6px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid var(--Fields-primary-light-grey, #d9d9d9);
+}
+input[type=checkbox].yellow-checkbox::after:hover {
+  border: 1px solid var(--Bg-primary-lime, #d7db2d);
+}
+input[type=checkbox].yellow-checkbox:checked::before {
+  content: " ";
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+input[type=checkbox].yellow-checkbox:checked::after {
+  width: 20px;
+  height: 20px;
+  content: " ";
+  border-radius: 6px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid var(--Bg-primary-lime, #d7db2d);
+  background-image: url(../img/icon/white-check.svg);
+  background-color: var(--Bg-primary-lime, #d7db2d);
+  background-position: 4px 5px;
+  background-repeat: no-repeat;
+  background-size: 11px 8px;
+}/*# sourceMappingURL=checkbox.css.map */

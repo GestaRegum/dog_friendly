@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./css/news.css" />
+    <link rel="stylesheet" href="./plugins/swiper/swiper-bundle.min.css" />
+    <title>Новости</title>
+  </head>
+  <body>
+    <img src="./img/news/back.svg" class="back1" />
+    <img src="./img/news/back2.svg" class="back2" />
+    <img src="./img/news/potato.svg" class="potato" />
+    <header>
+      <a href="/" class="logo">
+        <img src="./img/logo.png" alt="Logo" />
+      </a>
+      <ul class="nav">
+        <li>
+          <a href="/map.html">Карта Дог Френдли мест</a>
+        </li>
+        <li class="first_lvl">
+          <a href="/about.html">О Проекте </a>
+          <ul class="sub_menu">
+            <li class="sub_item">
+              <a href="./about.html"> О проекте </a>
+            </li>
+            <li class="sub_item">
+              <a href="./entrepreneurs.html"> Бизнесу </a>
+            </li>
+            <li class="sub_item">
+              <a href="./schools-teachers.html"> Школам и учителям </a>
+            </li>
+            <li class="sub_item">
+              <a href="./residents.html"> Жителям </a>
+            </li>
+          </ul>
+        </li>
+        <li class="first_lvl">
+          <a href="./life_with_a_dog.html">Жизнь с собакой</a>
+          <ul class="sub_menu">
+            <li class="sub_item">
+              <a class="dropdown-menu__link" href="./life_with_a_dog.html">
+                Вместе в радости и здоровье!
+              </a>
+            </li>
+            <li class="sub_item">
+              <a href="./dog_friendly.html" class="dropdown-menu__link">
+                Дог Френдли
+              </a>
+            </li>
+            <li class="sub_item">
+              <a href="./health-and-care.html"> Здоровье и уход </a>
+            </li>
+            <li class="sub_item">
+              <a href="./studying-training.html"> Обучение и тренировка </a>
+            </li>
+            <li class="sub_item">
+              <a href="./get-a-pet.html"> Как завести питомца </a>
+            </li>
+            <li class="sub_item">
+              <a href="./travelling-with-a-dog.html"> Путешествия с собакой </a>
+            </li>
+            <li class="sub_item">
+              <a href="./gides.html"> Инструкции и гайды </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="/news.html">Новости</a>
+        </li>
+      </ul>
+      <!-- Кнопка для открытия меню (бургер) -->
+      <div class="menu-toggle" id="mobile-menu">
+        <img src="./img/popup-bottom.png" alt="" />
+      </div>
+    </header>
+
+    <!-- Попап меню -->
+    <div class="popup-menu" id="popup-menu">
+      <div class="popup-menu__content">
+        <div class="popup-menu__header">
+          <a href="/" class="logo">
+            <img src="./img/logo.png" alt="Logo" />
+          </a>
+          <button class="popup-menu__close">&times;</button>
+        </div>
+
+        <ul class="popup-nav">
+          <li>
+            <a class="mobile" href="/map.html">Карта Дог Френдли мест</a>
+          </li>
+          <li class="popup-first-lvl active">
+            <a href="./life_with_a_dog.html">Жизнь с собакой </a>
+            <ul class="popup-sub-menu">
+              <li>
+                <a href="./life_with_a_dog.html"
+                  >Вместе в радости и здоровье!</a
+                >
+              </li>
+              <li>
+                <a href="./dog_friendly.html">Дог Френдли</a>
+              </li>
+              <li>
+                <a href="./health-and-care.html">Здоровье и уход</a>
+              </li>
+              <li>
+                <a href="./studying-training.html">Обучение и тренировка</a>
+              </li>
+              <li>
+                <a href="./get-a-pet.html">Как завести питомца</a>
+              </li>
+              <li>
+                <a href="./travelling-with-a-dog.html">Путешествия с собакой</a>
+              </li>
+              <li>
+                <a href="./gides.html">Инструкции и гайды</a>
+              </li>
+            </ul>
+          </li>
+          <li class="popup-first-lvl active">
+            <a href="/about.html">О Проекте </a>
+            <ul class="popup-sub-menu">
+              <li>
+                <a href="./about.html">О проекте</a>
+              </li>
+              <li>
+                <a href="./entrepreneurs.html">Бизнесу</a>
+              </li>
+              <li>
+                <a href="./schools-teachers.html">Школам и учителям</a>
+              </li>
+              <li>
+                <a href="./residents.html">Жителям</a>
+              </li>
+            </ul>
+          </li>
+          <li class="popup-first-lvl active">
+            <a href="#">Прочее</a>
+            <ul class="popup-sub-menu">
+              <li>
+                <a href="/map.html">Карта Дог Френдли мест</a>
+              </li>
+              <li>
+                <a href="/news.html">Новости</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="content news">
+      <div class="page_title">
+        Новости
+        <div class="btns-next-prev">
+          <div id="btn-prev-news">
+            <img src="./img/icon/prev-arrow.svg" alt="prev" />
+          </div>
+          <div id="btn-next-news">
+            <img src="./img/icon/next-arrow.svg" alt="next" />
+          </div>
+        </div>
+        <picture>
+          <img src="./img/news/uderline.svg" alt="" />
+        </picture>
+      </div>
+      <div class="list-swiper">
+        <div class="list">
+          <div class="card_news" href="/">
+            <picture class="image">
+              <source srcset="./img/main-page/news1.png" />
+              <img src="./img/main-page/news1.png" alt="" />
+            </picture>
+            <span class="date"> 16.05.23 </span>
+            <span class="title_news">
+              Открытие площадки для собак в Салават Купере
+            </span>
+            <a href="./news-detail.html" class="btn_news"> Подробнее </a>
+          </div>
+          <div class="card_news" href="/">
+            <picture class="image">
+              <source
+                srcset="./img/main-page/news1.png"
+                media="(orientation: portrait)"
+              />
+              <img src="./img/main-page/news1.png" alt="" />
+            </picture>
+            <span class="date"> 16.05.23 </span>
+            <span class="title_news">
+              Открытие площадки для собак в Салават Купере
+            </span>
+            <a href="./news-detail.html" class="btn_news"> Подробнее </a>
+          </div>
+          <div class="card_news" href="/">
+            <picture class="image">
+              <source
+                srcset="./img/main-page/news1.png"
+                media="(orientation: portrait)"
+              />
+              <img src="./img/main-page/news1.png" alt="" />
+            </picture>
+            <span class="date"> 16.05.23 </span>
+            <span class="title_news">
+              Открытие площадки для собак в Салават Купере
+            </span>
+            <a href="./news-detail.html" class="btn_news"> Подробнее </a>
+          </div>
+          <div class="card_news" href="/">
+            <picture class="image">
+              <source
+                srcset="./img/main-page/news1.png"
+                media="(orientation: portrait)"
+              />
+              <img src="./img/main-page/news1.png" alt="" />
+            </picture>
+            <span class="date"> 16.05.23 </span>
+            <span class="title_news">
+              Открытие площадки для собак в Салават Купере
+            </span>
+            <a href="./news-detail.html" class="btn_news"> Подробнее </a>
+          </div>
+          <div class="card_news" href="/">
+            <picture class="image">
+              <source
+                srcset="./img/main-page/news1.png"
+                media="(orientation: portrait)"
+              />
+              <img src="./img/main-page/news1.png" alt="" />
+            </picture>
+            <span class="date"> 16.05.23 </span>
+            <span class="title_news">
+              Открытие площадки для собак в Салават Купере
+            </span>
+            <a href="./news-detail.html" class="btn_news"> Подробнее </a>
+          </div>
+          <div class="card_news" href="/">
+            <picture class="image">
+              <source
+                srcset="./img/main-page/news1.png"
+                media="(orientation: portrait)"
+              />
+              <img src="./img/main-page/news1.png" alt="" />
+            </picture>
+            <span class="date"> 16.05.23 </span>
+            <span class="title_news">
+              Открытие площадки для собак в Салават Купере
+            </span>
+            <a href="./news-detail.html" class="btn_news"> Подробнее </a>
+          </div>
+          <div class="card_news" href="/">
+            <picture class="image">
+              <source
+                srcset="./img/main-page/news1.png"
+                media="(orientation: portrait)"
+              />
+              <img src="./img/main-page/news1.png" alt="" />
+            </picture>
+            <span class="date"> 16.05.23 </span>
+            <span class="title_news">
+              Открытие площадки для собак в Салават Купере
+            </span>
+            <a href="./news-detail.html" class="btn_news"> Подробнее </a>
+          </div>
+          <div class="banner_news">
+            <div class="title">Какой-то крутой заголовок...</div>
+            <div class="description">
+              И не менее интересное описание или подзаголовок, но самое главное
+              – длинный и понятный, интересный.
+            </div>
+            <a class="btn_more">Узнать больше</a>
+          </div>
+          <div class="card_news" href="/">
+            <picture class="image">
+              <source
+                srcset="./img/main-page/news1.png"
+                media="(orientation: portrait)"
+              />
+              <img src="./img/main-page/news1.png" alt="" />
+            </picture>
+            <span class="date"> 16.05.23 </span>
+            <span class="title_news">
+              Открытие площадки для собак в Салават Купере
+            </span>
+            <a href="./news-detail.html" class="btn_news"> Подробнее </a>
+          </div>
+          <div class="card_news" href="/">
+            <picture class="image">
+              <source
+                srcset="./img/main-page/news1.png"
+                media="(orientation: portrait)"
+              />
+              <img src="./img/main-page/news1.png" alt="" />
+            </picture>
+            <span class="date"> 16.05.23 </span>
+            <span class="title_news">
+              Открытие площадки для собак в Салават Купере
+            </span>
+            <a href="./news-detail.html" class="btn_news"> Подробнее </a>
+          </div>
+          <div class="card_news" href="/">
+            <picture class="image">
+              <source
+                srcset="./img/main-page/news1.png"
+                media="(orientation: portrait)"
+              />
+              <img src="./img/main-page/news1.png" alt="" />
+            </picture>
+            <span class="date"> 16.05.23 </span>
+            <span class="title_news">
+              Открытие площадки для собак в Салават Купере
+            </span>
+            <a href="./news-detail.html" class="btn_news"> Подробнее </a>
+          </div>
+          <div class="card_news" href="/">
+            <picture class="image">
+              <source
+                srcset="./img/main-page/news1.png"
+                media="(orientation: portrait)"
+              />
+              <img src="./img/main-page/news1.png" alt="" />
+            </picture>
+            <span class="date"> 16.05.23 </span>
+            <span class="title_news">
+              Открытие площадки для собак в Салават Купере
+            </span>
+            <a href="./news-detail.html" class="btn_news"> Подробнее </a>
+          </div>
+          <div class="card_news" href="/">
+            <picture class="image">
+              <source
+                srcset="./img/main-page/news1.png"
+                media="(orientation: portrait)"
+              />
+              <img src="./img/main-page/news1.png" alt="" />
+            </picture>
+            <span class="date"> 16.05.23 </span>
+            <span class="title_news">
+              Открытие площадки для собак в Салават Купере
+            </span>
+            <a href="./news-detail.html" class="btn_news"> Подробнее </a>
+          </div>
+          <div class="card_news" href="/">
+            <picture class="image">
+              <source
+                srcset="./img/main-page/news1.png"
+                media="(orientation: portrait)"
+              />
+              <img src="./img/main-page/news1.png" alt="" />
+            </picture>
+            <span class="date"> 16.05.23 </span>
+            <span class="title_news">
+              Открытие площадки для собак в Салават Купере
+            </span>
+            <a href="./news-detail.html" class="btn_news"> Подробнее </a>
+          </div>
+        </div>
+      </div>
+      <div class="banner_news_mob">
+        <div class="title">Какой-то крутой заголовок...</div>
+        <div class="description">
+          И не менее интересное описание или подзаголовок, но самое главное –
+          длинный и понятный, интересный.
+        </div>
+        <a class="btn_more">Узнать больше</a>
+      </div>
+      <div class="pagination">
+        <ul>
+          <li class="active">
+            <a href="/"> 1 </a>
+          </li>
+          <li>
+            <a href="/"> 2 </a>
+          </li>
+          <li>
+            <a href="/"> 3 </a>
+          </li>
+          <li>
+            <a href="/"> 4 </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <footer>
+      <div class="form">
+        <div class="desc">
+          <div class="title">
+            Есть вопросы или предложения?<br />Напиши нам!
+          </div>
+          <img src="./img/main-page/form.png" alt="" />
+          <div class="phone">
+            <span>Номер горячей линии</span>
+            <a href="tel:+7 800 555 35 35">+7 800 555 35 35</a>
+          </div>
+        </div>
+        <form>
+          <div class="input">
+            <label for="name"> Имя и Фамилия </label>
+            <input type="text" name="name" placeholder="Ваше имя и Фамилия" />
+          </div>
+          <div class="input">
+            <label for="phone"> Телефон / ник в Телеграм </label>
+            <input type="text" name="phone" placeholder="Ваш телефон или ник" />
+          </div>
+          <div class="input">
+            <label for="E-mail"> E-mail </label>
+            <input type="text" name="E-mail" placeholder="Ваш E-mail" />
+          </div>
+          <div class="input">
+            <label for="comment"> Комментарий </label>
+            <textarea name="comment" placeholder="Ваш комментарий"></textarea>
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" name="checkbox" class="yellow-checkbox" />
+            <label for="checkbox"
+              >Даю согласие на обработку персональных данных</label
+            >
+          </div>
+          <button>Отправить заявку</button>
+        </form>
+      </div>
+      <div class="footer">
+        <div class="container">
+          <div class="column">
+            <a href="/" class="logo">
+              <img src="./img/white-logo.png" alt="Logo" />
+            </a>
+            <a href="/" class="police">Политика конфиденциальности</a>
+          </div>
+          <div class="column menu">
+            <ul>
+              <li>
+                <a href="/map.html"> Карта Дог-френдли мест </a>
+              </li>
+              <li>
+                <a href="/about.html"> О проекте </a>
+              </li>
+              <li>
+                <a href="/life_with_a_dog.html"> Жизнь с собакой </a>
+              </li>
+              <li>
+                <a href="/news.html"> Новости </a>
+              </li>
+              <li>
+                <a href="/"> Контакты </a>
+              </li>
+            </ul>
+          </div>
+          <div class="column">
+            <div class="info">
+              <a href="tel:+7 800 555 35 35" class="tel"> +7 800 555 35 35 </a>
+              <a href="mail:contact@gmail.com" class="mail">
+                contact@gmail.com
+              </a>
+            </div>
+            <div class="soc_media">
+              <a href="/" class="facebook">
+                <img src="./img/icon/facebook.svg" alt="facebook" />
+              </a>
+              <a href="/" class="youtube">
+                <img src="./img/icon/youtube.svg" alt="youtube" />
+              </a>
+              <a href="/" class="instagram">
+                <img src="./img/icon/instagram.svg" alt="instagram" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/components/popup.js"></script>
+    <script src="./plugins/swiper/swiper-bundle.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        let materialsSwiper = null;
+        const nextButton = document.getElementById("btn-next-news");
+        const prevButton = document.getElementById("btn-prev-news");
+
+        function initMaterialsSwiper() {
+          const isMobile = window.matchMedia("(max-width: 1296px)").matches;
+          const swiperContainer = document.querySelector(".list-swiper");
+          const listContainer = swiperContainer.querySelector(".list");
+
+          if (isMobile && !materialsSwiper) {
+            swiperContainer.classList.add("swiper-container");
+            listContainer.classList.add("swiper-wrapper");
+
+            // Преобразуем только карточки новостей в слайды
+            const newsCards = Array.from(
+              listContainer.querySelectorAll(".card_news")
+            );
+            newsCards.forEach((card) => {
+              card.classList.add("swiper-slide");
+            });
+
+            // Инициализируем слайдер с дополнительными параметрами
+            materialsSwiper = new Swiper(swiperContainer, {
+              slidesPerView: "auto", // Автоматическое определение количества слайдов
+              watchSlidesProgress: true,
+              observer: true,
+              observeParents: true,
+
+              navigation: {
+                nextEl: nextButton,
+                prevEl: prevButton,
+              },
+            });
+
+            // Обновляем слайдер после инициализации
+            setTimeout(() => materialsSwiper.update(), 100);
+          } else if (!isMobile && materialsSwiper) {
+            materialsSwiper.destroy(true, true);
+            materialsSwiper = null;
+            swiperContainer.classList.remove("swiper-container");
+            listContainer.classList.remove("swiper-wrapper");
+            listContainer.querySelectorAll(".card_news").forEach((card) => {
+              card.classList.remove("swiper-slide");
+            });
+          }
+        }
+        // Инициализируем при загрузке
+        window.addEventListener("load", initMaterialsSwiper);
+
+        // Оптимизация ресайза
+        let resizeTimeout;
+        window.addEventListener("resize", () => {
+          clearTimeout(resizeTimeout);
+          resizeTimeout = setTimeout(initMaterialsSwiper, 100);
+        });
+      });
+    </script>
+  </body>
+</html>

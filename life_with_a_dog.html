@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./css/life_with_a_dog.css" />
+    <title>Жизнь с собакой</title>
+  </head>
+  <body>
+    <header>
+      <a href="/" class="logo">
+        <img src="./img/logo.png" alt="Logo" />
+      </a>
+      <ul class="nav">
+        <li>
+          <a href="/map.html">Карта Дог Френдли мест</a>
+        </li>
+        <li class="first_lvl">
+          <a href="/about.html">О Проекте </a>
+          <ul class="sub_menu">
+            <li class="sub_item">
+              <a href="./about.html"> О проекте </a>
+            </li>
+            <li class="sub_item">
+              <a href="./entrepreneurs.html"> Бизнесу </a>
+            </li>
+            <li class="sub_item">
+              <a href="./schools-teachers.html"> Школам и учителям </a>
+            </li>
+            <li class="sub_item">
+              <a href="./residents.html"> Жителям </a>
+            </li>
+          </ul>
+        </li>
+        <li class="first_lvl">
+          <a href="./life_with_a_dog.html">Жизнь с собакой</a>
+          <ul class="sub_menu">
+            <li class="sub_item">
+              <a class="dropdown-menu__link" href="./life_with_a_dog.html">
+                Вместе в радости и здоровье!
+              </a>
+            </li>
+            <li class="sub_item">
+              <a href="./dog_friendly.html" class="dropdown-menu__link">
+                Дог Френдли
+              </a>
+            </li>
+            <li class="sub_item">
+              <a href="./health-and-care.html"> Здоровье и уход </a>
+            </li>
+            <li class="sub_item">
+              <a href="./studying-training.html"> Обучение и тренировка </a>
+            </li>
+            <li class="sub_item">
+              <a href="./get-a-pet.html"> Как завести питомца </a>
+            </li>
+            <li class="sub_item">
+              <a href="./travelling-with-a-dog.html"> Путешествия с собакой </a>
+            </li>
+            <li class="sub_item">
+              <a href="./gides.html"> Инструкции и гайды </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="/news.html">Новости</a>
+        </li>
+      </ul>
+      <!-- Кнопка для открытия меню (бургер) -->
+      <div class="menu-toggle" id="mobile-menu">
+        <img src="./img/popup-bottom.png" alt="" />
+      </div>
+    </header>
+
+    <!-- Попап меню -->
+    <div class="popup-menu" id="popup-menu">
+      <div class="popup-menu__content">
+        <div class="popup-menu__header">
+          <a href="/" class="logo">
+            <img src="./img/logo.png" alt="Logo" />
+          </a>
+          <button class="popup-menu__close">&times;</button>
+        </div>
+
+        <ul class="popup-nav">
+          <li>
+            <a class="mobile" href="/map.html">Карта Дог Френдли мест</a>
+          </li>
+          <li class="popup-first-lvl active">
+            <a href="./life_with_a_dog.html">Жизнь с собакой </a>
+            <ul class="popup-sub-menu">
+              <li>
+                <a href="./life_with_a_dog.html"
+                  >Вместе в радости и здоровье!</a
+                >
+              </li>
+              <li>
+                <a href="./dog_friendly.html">Дог Френдли</a>
+              </li>
+              <li>
+                <a href="./health-and-care.html">Здоровье и уход</a>
+              </li>
+              <li>
+                <a href="./studying-training.html">Обучение и тренировка</a>
+              </li>
+              <li>
+                <a href="./get-a-pet.html">Как завести питомца</a>
+              </li>
+              <li>
+                <a href="./travelling-with-a-dog.html">Путешествия с собакой</a>
+              </li>
+              <li>
+                <a href="./gides.html">Инструкции и гайды</a>
+              </li>
+            </ul>
+          </li>
+          <li class="popup-first-lvl active">
+            <a href="/about.html">О Проекте </a>
+            <ul class="popup-sub-menu">
+              <li>
+                <a href="./about.html">О проекте</a>
+              </li>
+              <li>
+                <a href="./entrepreneurs.html">Бизнесу</a>
+              </li>
+              <li>
+                <a href="./schools-teachers.html">Школам и учителям</a>
+              </li>
+              <li>
+                <a href="./residents.html">Жителям</a>
+              </li>
+            </ul>
+          </li>
+          <li class="popup-first-lvl active">
+            <a href="#">Прочее</a>
+            <ul class="popup-sub-menu">
+              <li>
+                <a href="/map.html">Карта Дог Френдли мест</a>
+              </li>
+              <li>
+                <a href="/news.html">Новости</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--  -->
+    <div class="content life_with_a_dog">
+      <img
+        src="./img/life_with_a_dog/duga.svg"
+        alt="/"
+        style="position: absolute; top: 0; z-index: -1; left: 400px"
+      />
+      <div class="head">
+        <div class="title">Жизнь с собакой: вместе в радости и здоровье!</div>
+        <div class="description">
+          Здесь мы делимся секретами ухаживания за вашим пушистым другом,
+          поднимаем настроение вместе с веселыми историями из собачьей жизни, и
+          узнаем, как обеспечить вашему четвероногому компаньону долгие годы
+          радости и здоровья.
+        </div>
+      </div>
+      <div class="list">
+        <div
+          class="column12 hard_card"
+          style="
+            background-image: url(./img/life_with_a_dog/background_dog1.png);
+          "
+        >
+          <div class="desc">
+            <div class="desc__text">
+              <div class="desc__title">Дог Френдли</div>
+              <div class="desc__description">
+                Список кинологов и спортивных секций республики Список кинологов
+                и спортивных секций республики Список кинологов и спортивных
+                секций республики Список кинологов и спортивных секций
+                республики
+              </div>
+              <div class="desc__count">5 статей в разделе</div>
+            </div>
+            <a href="/dog_friendly.html" class="black_btn">
+              Перейти в раздел
+            </a>
+          </div>
+          <div class="img">
+            <picture
+              style="
+                bottom: 20px;
+                right: -25px;
+                max-height: 447px;
+                max-width: 411px;
+              "
+            >
+              <img src="./img/life_with_a_dog/dog.png" alt="cool_dog" />
+            </picture>
+          </div>
+        </div>
+        <div class="column3 simple_card" style="background-color: #bc781e">
+          <div class="desc">
+            <div class="desc__text">
+              <div class="desc__title">Здоровье и уход</div>
+              <div class="desc__description">
+                Список кинологов и спортивных секций республики Список кинологов
+                и спортивных секций республики Список кинологов и спортивных
+                секций республики Список кинологов и спортивных секций
+                республики
+              </div>
+              <div class="desc_count">4 статьи в разделе</div>
+            </div>
+          </div>
+          <a href="/health-and-care.html" class="white_btn">
+            Перейти в раздел
+          </a>
+        </div>
+        <div class="column1 simple_card" style="background-color: #d7db2d">
+          <div class="desc">
+            <div class="desc__text">
+              <div class="desc__title" style="color: #222222">
+                Обучение и тренировка
+              </div>
+              <div class="desc__description" style="color: #414141">
+                Список кинологов и спортивных секций республики Список кинологов
+                и спортивных секций республики Список кинологов и спортивных
+                секций республики Список кинологов и спортивных секций
+                республики
+              </div>
+              <div class="desc_count" style="color: #222222">
+                5 статей в разделе
+              </div>
+            </div>
+          </div>
+          <a href="/studying-training.html" class="white_btn">
+            Перейти в раздел
+          </a>
+        </div>
+        <div
+          class="column23 hard_card"
+          style="
+            background-image: url(./img/life_with_a_dog/background_dog2.png);
+          "
+        >
+          <div class="desc">
+            <div class="desc__text">
+              <div class="desc__title">Как завести питомца</div>
+              <div class="desc__description">
+                Список кинологов и спортивных секций республики Список кинологов
+                и спортивных секций республики Список кинологов и спортивных
+                секций республики Список кинологов и спортивных секций
+                республики
+              </div>
+              <div class="desc__count">4 статьи в разделе</div>
+            </div>
+            <a href="/get-a-pet.html" class="black_btn"> Перейти в раздел </a>
+          </div>
+          <div class="img">
+            <picture
+              style="
+                bottom: 30px;
+                right: 51px;
+                max-height: 346px;
+                max-width: 313px;
+              "
+            >
+              <img src="./img/life_with_a_dog/dog2.png" alt="cool_dog" />
+            </picture>
+          </div>
+        </div>
+        <div
+          class="column12 hard_card"
+          style="
+            background-image: url(./img/life_with_a_dog/background_dog3.png);
+          "
+        >
+          <div class="desc">
+            <div class="desc__text">
+              <div class="desc__title">Путешествия с собакой</div>
+              <div class="desc__description">
+                Список кинологов и спортивных секций республики Список кинологов
+                и спортивных секций республики Список кинологов и спортивных
+                секций республики Список кинологов и спортивных секций
+                республики
+              </div>
+              <div class="desc__count">4 статьи в разделе</div>
+            </div>
+            <a href="/" class="black_btn"> Перейти в раздел </a>
+          </div>
+          <div class="img">
+            <picture
+              style="
+                bottom: -10px;
+                right: 61px;
+                max-height: 468px;
+                max-width: 426px;
+              "
+            >
+              <img src="./img/life_with_a_dog/dog3.png" alt="cool_dog" />
+            </picture>
+          </div>
+        </div>
+        <div class="column3 simple_card" style="background-color: #222222">
+          <div class="desc">
+            <div class="desc__text">
+              <div class="desc__title">Инструкции и гайды</div>
+              <div class="desc__description">
+                Список кинологов и спортивных секций республики Список кинологов
+                и спортивных секций республики Список кинологов и спортивных
+                секций республики Список кинологов и спортивных секций
+                республики
+              </div>
+              <div class="desc_count">3 статьи в разделе</div>
+            </div>
+          </div>
+          <a href="/" class="white_btn"> Перейти в раздел </a>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+    <footer>
+      <div class="form">
+        <div class="desc">
+          <div class="title">
+            Есть вопросы или предложения?<br />Напиши нам!
+          </div>
+          <img src="./img/main-page/form.png" alt="" />
+          <div class="phone">
+            <span>Номер горячей линии</span>
+            <a href="tel:+7 800 555 35 35">+7 800 555 35 35</a>
+          </div>
+        </div>
+        <form>
+          <div class="input">
+            <label for="name"> Имя и Фамилия </label>
+            <input type="text" name="name" placeholder="Ваше имя и Фамилия" />
+          </div>
+          <div class="input">
+            <label for="phone"> Телефон / ник в Телеграм </label>
+            <input type="text" name="phone" placeholder="Ваш телефон или ник" />
+          </div>
+          <div class="input">
+            <label for="E-mail"> E-mail </label>
+            <input type="text" name="E-mail" placeholder="Ваш E-mail" />
+          </div>
+          <div class="input">
+            <label for="comment"> Комментарий </label>
+            <textarea name="comment" placeholder="Ваш комментарий"></textarea>
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" name="checkbox" class="yellow-checkbox" />
+            <label for="checkbox"
+              >Даю согласие на обработку персональных данных</label
+            >
+          </div>
+          <button>Отправить заявку</button>
+        </form>
+      </div>
+      <div class="footer">
+        <div class="container">
+          <div class="column">
+            <a href="/" class="logo">
+              <img src="./img/white-logo.png" alt="Logo" />
+            </a>
+            <a href="/" class="police">Политика конфиденциальности</a>
+          </div>
+          <div class="column menu">
+            <ul>
+              <li>
+                <a href="/map.html"> Карта Дог-френдли мест </a>
+              </li>
+              <li>
+                <a href="/about.html"> О проекте </a>
+              </li>
+              <li>
+                <a href="/life_with_a_dog.html"> Жизнь с собакой </a>
+              </li>
+              <li>
+                <a href="/news.html"> Новости </a>
+              </li>
+              <li>
+                <a href="/"> Контакты </a>
+              </li>
+              <a href="/" class="police_lt">Политика конфиденциальности</a>
+            </ul>
+          </div>
+          <div class="column">
+            <div class="info">
+              <a href="tel:+7 800 555 35 35" class="tel"> +7 800 555 35 35 </a>
+              <a href="mail:contact@gmail.com" class="mail">
+                contact@gmail.com
+              </a>
+            </div>
+            <div class="soc_media">
+              <a href="/" class="facebook">
+                <img src="./img/icon/facebook.svg" alt="facebook" />
+              </a>
+              <a href="/" class="youtube">
+                <img src="./img/icon/youtube.svg" alt="youtube" />
+              </a>
+              <a href="/" class="instagram">
+                <img src="./img/icon/instagram.svg" alt="instagram" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/components/popup.js"></script>
+  </body>
+</html>

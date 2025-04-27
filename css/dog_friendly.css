@@ -1,0 +1,982 @@
+@media (min-width: 1296px) {
+  .content.dog_friendly {
+    padding-top: 165px;
+  }
+  .content.dog_friendly .head_page {
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    grid-column-gap: 24px;
+    margin-bottom: 70px;
+  }
+  .content.dog_friendly .head_page .text {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    padding-top: 102px;
+  }
+  .content.dog_friendly .head_page .text__title {
+    font-family: var(--second-family);
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 120%;
+    color: #222;
+    position: relative;
+    width: -moz-max-content;
+    width: max-content;
+  }
+  .content.dog_friendly .head_page .text__title.one-line::after {
+    display: block;
+    content: " ";
+    width: 100%;
+    height: 18px;
+    background-image: url(../img/dog-friendly/Undercore.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: -18px;
+  }
+  .content.dog_friendly .head_page .text__title.two-line::after {
+    display: block;
+    content: " ";
+    width: 100%;
+    height: 20px;
+    background-image: url(../img/dog-friendly/health-and-care/two-line.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: -20px;
+  }
+  .content.dog_friendly .head_page .text__title.oval::after {
+    display: block;
+    content: " ";
+    width: 100%;
+    height: 64px;
+    top: 0;
+    transform: translateY(-10%);
+    z-index: -1;
+    background-image: url(../img/dog-friendly/studing/oval.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+  }
+  .content.dog_friendly .head_page .text__title.under-two-line::after {
+    display: block;
+    content: " ";
+    width: 100%;
+    height: 16px;
+    top: calc(100% + 5px);
+    z-index: -1;
+    background-image: url(../img/dog-friendly/have-a-pet/under-two-line.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+  }
+  .content.dog_friendly .head_page .text__description {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160%;
+    color: #414141;
+  }
+  .content.dog_friendly .head_page picture.img {
+    padding: 0 43px 0 67px;
+    max-width: 635px;
+    max-height: 575px;
+    float: right;
+    justify-self: flex-end;
+  }
+  .content.dog_friendly .head_page picture.img img {
+    -o-object-fit: contain;
+       object-fit: contain;
+    width: 100%;
+    height: 100%;
+  }
+  .content.dog_friendly .list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 24px;
+    grid-row-gap: 36px;
+  }
+  .content.dog_friendly .list .column1 {
+    grid-column: 1/2;
+  }
+  .content.dog_friendly .list .column23 {
+    grid-column: 2/4;
+  }
+  .content.dog_friendly .list .column123 {
+    grid-column: 1/4;
+  }
+  .content.dog_friendly .list .column12 {
+    grid-column: 1/3;
+  }
+  .content.dog_friendly .list .column2 {
+    grid-column: 2/3;
+  }
+  .content.dog_friendly .list .column3 {
+    grid-column: 3/4;
+  }
+  .content.dog_friendly .list a.black_btn {
+    text-decoration: none;
+    display: block;
+    width: -moz-max-content;
+    width: max-content;
+    border-radius: 24px;
+    padding: 24px 44px;
+    background: #222;
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+    color: #fff;
+    transition: box-shadow 0.5s;
+  }
+  .content.dog_friendly .list a.black_btn:hover {
+    box-shadow: 0px 8px 0px 0px #d7db2d;
+  }
+  .content.dog_friendly .list .simple_card,
+  .content.dog_friendly .list .hard_card {
+    background: #fff;
+    border-radius: 24px;
+    transition: box-shadow 0.5s;
+    height: 380px;
+    cursor: pointer;
+  }
+  .content.dog_friendly .list .simple_card:hover,
+  .content.dog_friendly .list .hard_card:hover {
+    box-shadow: 0 24px 52px 0 rgba(0, 0, 0, 0.04), 0 94px 94px 0 rgba(0, 0, 0, 0.03), 0 212px 127px 0 rgba(0, 0, 0, 0.02), 0 377px 151px 0 rgba(0, 0, 0, 0.01), 0 589px 165px 0 rgba(0, 0, 0, 0);
+  }
+  .content.dog_friendly .list .simple_card .text,
+  .content.dog_friendly .list .hard_card .text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .content.dog_friendly .list .simple_card .text__title,
+  .content.dog_friendly .list .hard_card .text__title {
+    font-family: var(--second-family);
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 133%;
+    color: #222;
+  }
+  .content.dog_friendly .list .simple_card .text__description,
+  .content.dog_friendly .list .hard_card .text__description {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 162%;
+    color: #414141;
+  }
+  .content.dog_friendly .list .simple_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+  }
+  .content.dog_friendly .list .hard_card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 24px;
+    height: 460px;
+    overflow: hidden;
+  }
+  .content.dog_friendly .list .hard_card .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+    max-height: 440px;
+  }
+  .content.dog_friendly .list .hard_card picture img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .content.dog_friendly .list .column123.hard_card {
+    grid-template-columns: 5fr 6fr;
+    height: 520px;
+  }
+  .zakaruchka {
+    position: relative;
+    overflow: visible;
+  }
+  .zakaruchka::after {
+    position: absolute;
+    content: " ";
+    top: -8px;
+    right: 35px;
+    width: 117px;
+    height: 48px;
+    background-image: url(../img/dog-friendly/zakaruchka.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .lapa {
+    position: relative;
+    overflow: visible;
+  }
+  .lapa::after {
+    position: absolute;
+    content: " ";
+    bottom: 70px;
+    right: -30px;
+    width: 59px;
+    height: 53px;
+    background-image: url(../img/dog-friendly/lapa.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .bzzz {
+    position: relative;
+    overflow: visible;
+  }
+  .bzzz::after {
+    position: absolute;
+    content: " ";
+    width: 63px;
+    height: 71px;
+    top: -27px;
+    right: -21px;
+    background-image: url(../img/dog-friendly/health-and-care/bzzz.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .viu-viu {
+    position: relative;
+    overflow: visible;
+  }
+  .viu-viu::after {
+    position: absolute;
+    content: " ";
+    width: 64px;
+    height: 40px;
+    bottom: -5px;
+    right: -14px;
+    background-image: url(../img/dog-friendly/health-and-care/viu-viu.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .bip {
+    position: relative;
+  }
+  .bip::after {
+    position: absolute;
+    content: " ";
+    width: 81px;
+    height: 58px;
+    top: -18px;
+    right: 26px;
+    background-image: url(../img/dog-friendly/studing/bip.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .piu {
+    position: relative;
+  }
+  .piu::after {
+    position: absolute;
+    content: " ";
+    width: 33px;
+    height: 60px;
+    bottom: 118px;
+    right: -16px;
+    background-image: url(../img/dog-friendly/studing/piu.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .spiral {
+    position: relative;
+  }
+  .spiral::after {
+    position: absolute;
+    content: " ";
+    width: 57px;
+    height: 66px;
+    top: -27px;
+    right: 10px;
+    background-image: url(../img/dog-friendly/have-a-pet/spiral.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .points {
+    position: relative;
+  }
+  .points::after {
+    position: absolute;
+    content: " ";
+    width: 52px;
+    height: 55px;
+    bottom: 80px;
+    right: -22px;
+    background-image: url(../img/dog-friendly/have-a-pet/points.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .half-spiral {
+    position: relative;
+  }
+  .half-spiral::after {
+    position: absolute;
+    content: " ";
+    width: 61px;
+    height: 54px;
+    top: -14px;
+    right: 2px;
+    background-image: url(../img/dog-friendly/travelling/half-spiral.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .zavarushka {
+    position: relative;
+  }
+  .zavarushka::after {
+    position: absolute;
+    content: " ";
+    width: 118px;
+    height: 32px;
+    top: -16px;
+    right: 9px;
+    background-image: url(../img/dog-friendly/instruction/zavarushka.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 761px) and (max-width: 1295px) {
+  .content.dog_friendly {
+    overflow: hidden;
+    padding: 144px 40px;
+  }
+  .content.dog_friendly .head_page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 24px;
+    margin-bottom: 70px;
+    padding-top: 144px;
+  }
+  .content.dog_friendly .head_page .text {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+  }
+  .content.dog_friendly .head_page .text__title {
+    font-family: var(--second-family);
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 40px;
+    color: #222;
+    position: relative;
+  }
+  .content.dog_friendly .head_page .text__title.one-line::after {
+    display: block;
+    content: " ";
+    width: 65%;
+    height: 12px;
+    background-image: url(../img/dog-friendly/Undercore.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: -18px;
+  }
+  .content.dog_friendly .head_page .text__title.two-line::after {
+    display: block;
+    content: " ";
+    width: 100%;
+    height: 20px;
+    background-image: url(../img/dog-friendly/health-and-care/two-line.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: -20px;
+  }
+  .content.dog_friendly .head_page .text__title.oval::after {
+    display: block;
+    content: " ";
+    width: 100%;
+    height: 64px;
+    top: 0;
+    height: 103px;
+    top: -9px;
+    left: -28px;
+    z-index: -1;
+    background-image: url(../img/dog-friendly/studing/oval_lt.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+  }
+  .content.dog_friendly .head_page .text__title.under-two-line::after {
+    display: block;
+    content: " ";
+    width: 100%;
+    height: 16px;
+    top: calc(100% + 5px);
+    z-index: -1;
+    background-image: url(../img/dog-friendly/have-a-pet/under-two-line.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+  }
+  .content.dog_friendly .head_page .text__description {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #414141;
+  }
+  .content.dog_friendly .head_page picture.img {
+    float: right;
+    justify-self: flex-end;
+  }
+  .content.dog_friendly .head_page picture.img img {
+    -o-object-fit: contain;
+       object-fit: contain;
+    width: 100%;
+  }
+  .content.dog_friendly .list {
+    display: grid;
+    grid-column-gap: 24px;
+    grid-row-gap: 36px;
+  }
+  .content.dog_friendly .list a.black_btn {
+    text-decoration: none;
+    display: block;
+    width: -moz-max-content;
+    width: max-content;
+    border-radius: 24px;
+    padding: 24px 80px;
+    background: #222;
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+    color: #fff;
+    transition: box-shadow 0.5s;
+  }
+  .content.dog_friendly .list a.black_btn:hover {
+    box-shadow: 0px 8px 0px 0px #d7db2d;
+  }
+  .content.dog_friendly .list .simple_card,
+  .content.dog_friendly .list .hard_card {
+    background: #fff;
+    border-radius: 24px;
+    transition: box-shadow 0.5s;
+    height: 380px;
+    cursor: pointer;
+  }
+  .content.dog_friendly .list .simple_card:hover,
+  .content.dog_friendly .list .hard_card:hover {
+    box-shadow: 0 24px 52px 0 rgba(0, 0, 0, 0.04), 0 94px 94px 0 rgba(0, 0, 0, 0.03), 0 212px 127px 0 rgba(0, 0, 0, 0.02), 0 377px 151px 0 rgba(0, 0, 0, 0.01), 0 589px 165px 0 rgba(0, 0, 0, 0);
+  }
+  .content.dog_friendly .list .simple_card .text,
+  .content.dog_friendly .list .hard_card .text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .content.dog_friendly .list .simple_card .text__title,
+  .content.dog_friendly .list .hard_card .text__title {
+    font-family: var(--second-family);
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 133%;
+    color: #222;
+  }
+  .content.dog_friendly .list .simple_card .text__description,
+  .content.dog_friendly .list .hard_card .text__description {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 162%;
+    color: #414141;
+  }
+  .content.dog_friendly .list .simple_card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    height: 249px;
+    padding: 36px;
+    align-items: center;
+    justify-items: end;
+  }
+  .content.dog_friendly .list .hard_card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 24px;
+    overflow: hidden;
+  }
+  .content.dog_friendly .list .hard_card .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 40px;
+    max-height: 440px;
+  }
+  .content.dog_friendly .list .hard_card picture img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .zakaruchka {
+    position: relative;
+    overflow: visible;
+  }
+  .zakaruchka::after {
+    position: absolute;
+    content: " ";
+    top: -8px;
+    right: 35px;
+    width: 117px;
+    height: 48px;
+    background-image: url(../img/dog-friendly/zakaruchka.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .lapa {
+    position: relative;
+    overflow: visible;
+  }
+  .lapa::after {
+    position: absolute;
+    content: " ";
+    bottom: 70px;
+    right: -30px;
+    width: 59px;
+    height: 53px;
+    background-image: url(../img/dog-friendly/lapa.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .bzzz {
+    position: relative;
+    overflow: visible;
+  }
+  .bzzz::after {
+    position: absolute;
+    content: " ";
+    width: 63px;
+    height: 71px;
+    top: -27px;
+    right: -21px;
+    background-image: url(../img/dog-friendly/health-and-care/bzzz.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .viu-viu {
+    position: relative;
+    overflow: visible;
+  }
+  .viu-viu::after {
+    position: absolute;
+    content: " ";
+    width: 64px;
+    height: 40px;
+    bottom: -5px;
+    right: -14px;
+    background-image: url(../img/dog-friendly/health-and-care/viu-viu.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .bip {
+    position: relative;
+  }
+  .bip::after {
+    position: absolute;
+    content: " ";
+    width: 81px;
+    height: 58px;
+    top: -18px;
+    right: 26px;
+    background-image: url(../img/dog-friendly/studing/bip.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .piu {
+    position: relative;
+  }
+  .piu::after {
+    position: absolute;
+    content: " ";
+    width: 33px;
+    height: 60px;
+    bottom: 118px;
+    right: -16px;
+    background-image: url(../img/dog-friendly/studing/piu.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .spiral {
+    position: relative;
+  }
+  .spiral::after {
+    position: absolute;
+    content: " ";
+    width: 57px;
+    height: 66px;
+    top: -27px;
+    right: 10px;
+    background-image: url(../img/dog-friendly/have-a-pet/spiral.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .points {
+    position: relative;
+  }
+  .points::after {
+    position: absolute;
+    content: " ";
+    width: 52px;
+    height: 55px;
+    bottom: 80px;
+    right: -22px;
+    background-image: url(../img/dog-friendly/have-a-pet/points.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .half-spiral {
+    position: relative;
+  }
+  .half-spiral::after {
+    position: absolute;
+    content: " ";
+    width: 61px;
+    height: 54px;
+    top: -14px;
+    right: 2px;
+    background-image: url(../img/dog-friendly/travelling/half-spiral.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .zavarushka {
+    position: relative;
+  }
+  .zavarushka::after {
+    position: absolute;
+    content: " ";
+    width: 118px;
+    height: 32px;
+    top: -16px;
+    right: 9px;
+    background-image: url(../img/dog-friendly/instruction/zavarushka.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 390px) and (max-width: 760px) {
+  .content.dog_friendly {
+    overflow: hidden;
+    padding: 144px 16px;
+  }
+  .content.dog_friendly .head_page {
+    display: grid;
+    margin-bottom: 70px;
+    padding-top: 40px;
+  }
+  .content.dog_friendly .head_page .text {
+    display: grid;
+    gap: 36px;
+    justify-items: center;
+  }
+  .content.dog_friendly .head_page .text__title {
+    font-family: var(--second-family);
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    color: #222;
+    position: absolute;
+    top: 140px;
+    text-align: center;
+  }
+  .content.dog_friendly .head_page .text__title.one-line::after {
+    display: block;
+    content: " ";
+    width: 100%;
+    height: 20px;
+    background-image: url(../img/dog-friendly/Undercore.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: -18px;
+  }
+  .content.dog_friendly .head_page .text__title.two-line::after {
+    display: block;
+    content: " ";
+    width: 100%;
+    height: 20px;
+    background-image: url(../img/dog-friendly/health-and-care/two-line.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: -20px;
+  }
+  .content.dog_friendly .head_page .text__title.oval::after {
+    display: block;
+    content: " ";
+    width: 100%;
+    height: 64px;
+    top: -8px;
+    z-index: -1;
+    background-image: url(../img/dog-friendly/studing/oval_mb.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+  }
+  .content.dog_friendly .head_page .text__title.under-two-line::after {
+    display: block;
+    content: " ";
+    width: 100%;
+    height: 16px;
+    top: calc(100% + 5px);
+    z-index: -1;
+    background-image: url(../img/dog-friendly/have-a-pet/under-two-line.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+  }
+  .content.dog_friendly .head_page .text__description {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #414141;
+    text-align: center;
+  }
+  .content.dog_friendly .head_page picture.img {
+    grid-row: 1;
+  }
+  .content.dog_friendly .head_page picture.img img {
+    -o-object-fit: contain;
+       object-fit: contain;
+    width: 100%;
+  }
+  .content.dog_friendly .list {
+    display: grid;
+    grid-row-gap: 36px;
+  }
+  .content.dog_friendly .list a.black_btn {
+    text-decoration: none;
+    display: block;
+    width: -moz-max-content;
+    width: max-content;
+    border-radius: 24px;
+    padding: 19px 70px;
+    background: #222;
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+    color: #fff;
+    transition: box-shadow 0.5s;
+  }
+  .content.dog_friendly .list a.black_btn:hover {
+    box-shadow: 0px 8px 0px 0px #d7db2d;
+  }
+  .content.dog_friendly .list .simple_card,
+  .content.dog_friendly .list .hard_card {
+    background: #fff;
+    border-radius: 24px;
+    transition: box-shadow 0.5s;
+    cursor: pointer;
+  }
+  .content.dog_friendly .list .simple_card:hover,
+  .content.dog_friendly .list .hard_card:hover {
+    box-shadow: 0 24px 52px 0 rgba(0, 0, 0, 0.04), 0 94px 94px 0 rgba(0, 0, 0, 0.03), 0 212px 127px 0 rgba(0, 0, 0, 0.02), 0 377px 151px 0 rgba(0, 0, 0, 0.01), 0 589px 165px 0 rgba(0, 0, 0, 0);
+  }
+  .content.dog_friendly .list .simple_card .text,
+  .content.dog_friendly .list .hard_card .text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 48px;
+  }
+  .content.dog_friendly .list .simple_card .text__title,
+  .content.dog_friendly .list .hard_card .text__title {
+    font-family: var(--second-family);
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 26px;
+    color: #222;
+  }
+  .content.dog_friendly .list .simple_card .text__description,
+  .content.dog_friendly .list .hard_card .text__description {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #414141;
+  }
+  .content.dog_friendly .list .simple_card {
+    display: grid;
+    justify-content: space-between;
+    height: 249px;
+    padding: 36px;
+    align-items: center;
+    justify-items: start;
+  }
+  .content.dog_friendly .list .hard_card {
+    display: grid;
+    overflow: hidden;
+  }
+  .content.dog_friendly .list .hard_card .desc {
+    display: grid;
+    justify-content: space-around;
+    padding: 40px;
+    max-height: 440px;
+  }
+  .content.dog_friendly .list .hard_card picture {
+    grid-row: 1;
+  }
+  .content.dog_friendly .list .hard_card picture img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .zakaruchka {
+    position: relative;
+    overflow: visible;
+  }
+  .zakaruchka::after {
+    position: absolute;
+    content: " ";
+    top: -8px;
+    right: 35px;
+    width: 117px;
+    height: 48px;
+    background-image: url(../img/dog-friendly/zakaruchka.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .lapa {
+    position: relative;
+    overflow: visible;
+  }
+  .lapa::after {
+    position: absolute;
+    content: " ";
+    bottom: 70px;
+    right: -30px;
+    width: 59px;
+    height: 53px;
+    background-image: url(../img/dog-friendly/lapa.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .bzzz {
+    position: relative;
+    overflow: visible;
+  }
+  .bzzz::after {
+    position: absolute;
+    content: " ";
+    width: 63px;
+    height: 71px;
+    top: -27px;
+    right: -21px;
+    background-image: url(../img/dog-friendly/health-and-care/bzzz.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .viu-viu {
+    position: relative;
+    overflow: visible;
+  }
+  .viu-viu::after {
+    position: absolute;
+    content: " ";
+    width: 64px;
+    height: 40px;
+    bottom: -5px;
+    right: -14px;
+    background-image: url(../img/dog-friendly/health-and-care/viu-viu.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .bip {
+    position: relative;
+  }
+  .bip::after {
+    position: absolute;
+    content: " ";
+    width: 81px;
+    height: 58px;
+    top: -18px;
+    right: 26px;
+    background-image: url(../img/dog-friendly/studing/bip.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .piu {
+    position: relative;
+  }
+  .piu::after {
+    position: absolute;
+    content: " ";
+    width: 33px;
+    height: 60px;
+    bottom: 118px;
+    right: -16px;
+    background-image: url(../img/dog-friendly/studing/piu.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .spiral {
+    position: relative;
+  }
+  .spiral::after {
+    position: absolute;
+    content: " ";
+    width: 57px;
+    height: 66px;
+    top: -27px;
+    right: 10px;
+    background-image: url(../img/dog-friendly/have-a-pet/spiral.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .points {
+    position: relative;
+  }
+  .points::after {
+    position: absolute;
+    content: " ";
+    width: 52px;
+    height: 55px;
+    bottom: 80px;
+    right: -22px;
+    background-image: url(../img/dog-friendly/have-a-pet/points.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .half-spiral {
+    position: relative;
+  }
+  .half-spiral::after {
+    position: absolute;
+    content: " ";
+    width: 61px;
+    height: 54px;
+    top: -14px;
+    right: 2px;
+    background-image: url(../img/dog-friendly/travelling/half-spiral.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .zavarushka {
+    position: relative;
+  }
+  .zavarushka::after {
+    position: absolute;
+    content: " ";
+    width: 118px;
+    height: 32px;
+    top: -16px;
+    right: 9px;
+    background-image: url(../img/dog-friendly/instruction/zavarushka.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}/*# sourceMappingURL=dog_friendly.css.map */

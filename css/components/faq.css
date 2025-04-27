@@ -1,0 +1,52 @@
+.trn-faq details {
+  color: var(--Text-text-black, #414141);
+  font-family: "Noto Sans";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-bottom: 16px;
+  display: flex;
+  padding: 24px 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 24px;
+  background: var(--Bg-primary-white, #FFF);
+  transition: all ease-in-out 0.3s;
+}
+.trn-faq details[open] {
+  border: 1px solid var(--Text-inputs-black, #9E9E9E);
+}
+.trn-faq details summary {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--Text-heads-black, #222);
+  font-family: Mulish;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32px;
+  cursor: pointer;
+}
+.trn-faq details summary::-webkit-details-marker, .trn-faq details summary::marker {
+  display: none;
+}
+.trn-faq details summary::after {
+  display: block;
+  content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none"><path d="M22 40.3333C32.1252 40.3333 40.3334 32.1252 40.3334 22C40.3334 11.8747 32.1252 3.66663 22 3.66663C11.8748 3.66663 3.66669 11.8747 3.66669 22C3.66669 32.1252 11.8748 40.3333 22 40.3333Z" stroke="%239E9E9E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M22 14.6666V29.3333" stroke="%239E9E9E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M14.6667 22H29.3334" stroke="%239E9E9E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+}
+.trn-faq details > div {
+  transition: all ease-in-out 0.3s;
+  opacity: 0;
+}
+.trn-faq details[open] summary {
+  margin-bottom: 24px;
+}
+.trn-faq details[open] summary::after {
+  content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none"><g clip-path="url(%23clip0_792_2050)"><path d="M9.03632 34.9636C16.1959 42.1232 27.8039 42.1232 34.9636 34.9636C42.1232 27.804 42.1232 16.196 34.9636 9.03638C27.804 1.87677 16.1959 1.87677 9.03632 9.03638C1.8767 16.196 1.8767 27.804 9.03632 34.9636Z" stroke="%239E9E9E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M27.1854 16.8146L16.8145 27.1855" stroke="%239E9E9E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M16.8145 16.8146L27.1854 27.1855" stroke="%239E9E9E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g><defs><clipPath id="clip0_792_2050"><rect width="44" height="44" fill="white"/></clipPath></defs></svg>');
+}
+.trn-faq details[open] > div {
+  opacity: 1;
+  transition: all ease-in-out 0.3s;
+}/*# sourceMappingURL=faq.css.map */

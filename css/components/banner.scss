@@ -1,0 +1,214 @@
+@import "../params";
+
+.glider-banner {
+  position: relative;
+  max-width: 1296px;
+  margin: 152px auto 0;
+  max-height: 800px;
+  overflow: hidden;
+
+  .glider {
+    .slide {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 592px;
+      padding: 95px 72px 69px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 24px;
+
+      .slide-text {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 36px;
+        max-width: 40%;
+
+        .title {
+          font-feature-settings: "clig" off, "liga" off;
+          font-family: Mulish;
+          font-weight: 800;
+          position: relative;
+        }
+
+        .description {
+          font-family: "Noto Sans";
+          font-weight: 500;
+          position: relative;
+
+          span img {
+            min-width: 271px;
+            min-height: 8px;
+          }
+        }
+
+        img.lines,
+        img.line {
+          position: absolute;
+        }
+      }
+
+      .button-white {
+        padding: 24px 44px;
+        background-color: #fff;
+        width: max-content;
+        border-radius: 24px;
+        font-family: "Noto Sans";
+        font-size: 16px;
+        font-weight: 800;
+        line-height: 100%;
+        color: #414141;
+        box-shadow: none;
+        transition: box-shadow 0.5s;
+
+        &:hover {
+          box-shadow: 0px 8px 0px 0px #d7db2d;
+        }
+      }
+    }
+  }
+
+  #dots {
+    gap: 8px;
+    position: absolute;
+    bottom: 70px;
+    align-items: center;
+
+    .glider-dot {
+      margin: 0;
+      padding: 0;
+      background-color: #6f6f5a;
+
+      &.active {
+        width: 20px;
+        height: 20px;
+        background-color: #ffffff;
+      }
+    }
+  }
+}
+
+// Desktop (большие экраны)
+@media (min-width: ($maxWidth + 1)) {
+  .glider-banner {
+    .glider {
+      .slide {
+        .slide-text {
+          .title {
+            color: #222222;
+            font-size: 64px;
+            line-height: 112.5%;
+          }
+
+          .description {
+            font-size: 20px;
+            line-height: 160%;
+            width: 440px;
+            color: #222222;
+          }
+
+          img.lines {
+            top: -10px;
+            right: -10px;
+          }
+
+          img.line {
+            bottom: -19px;
+            left: 2px;
+          }
+        }
+      }
+    }
+
+    #dots {
+      right: 0;
+      left: 0;
+    }
+  }
+}
+
+// Tablet (ноутбуки)
+@media (min-width: ($lapTopWidth + 1)) and (max-width: $maxWidth) {
+  .glider-banner {
+    .glider {
+      .slide {
+        .slide-text {
+          .title {
+            color: #222222;
+            font-size: 38px;
+            line-height: 40px;
+          }
+
+          .description {
+            font-size: 16px;
+            line-height: 22px;
+            width: 290px;
+            color: #222222;
+          }
+
+          img.lines {
+            top: -20px;
+            left: 260px;
+          }
+
+          img.line {
+            bottom: -19px;
+            left: 2px;
+          }
+        }
+      }
+    }
+
+    #dots {
+      right: 42px;
+    }
+  }
+}
+
+// Mobile (планшеты и телефоны)
+@media (min-width: $mobWidth) and (max-width: $lapTopWidth) {
+  .glider-banner {
+    .glider {
+      .slide {
+        background-color: rgba(171, 171, 171, 0.5);
+        background-blend-mode: color-burn;
+
+        .slide-text {
+          .title {
+            color: rgba(255, 255, 255);
+            font-size: 38px;
+            line-height: 40px;
+          }
+
+          .description {
+            font-size: 16px;
+            line-height: 22px;
+            width: 290px;
+            color: rgba(255, 255, 255);
+          }
+
+          img.lines,
+          img.line {
+            filter: brightness(0) invert(1);
+          }
+
+          img.lines {
+            top: -20px;
+            left: 260px;
+          }
+
+          img.line {
+            bottom: -19px;
+            left: 2px;
+          }
+        }
+      }
+    }
+
+    #dots {
+      right: 42px;
+    }
+  }
+}

@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./css/news.css" />
+    <title>
+      Чем занимается первый в России менеджер по развитию дог-френдли среды
+    </title>
+  </head>
+  <body>
+    <header>
+      <a href="/" class="logo">
+        <img src="./img/logo.png" alt="Logo" />
+      </a>
+      <ul class="nav">
+        <li>
+          <a href="/map.html">Карта Дог Френдли мест</a>
+        </li>
+        <li class="first_lvl">
+          <a href="/about.html">О Проекте </a>
+          <ul class="sub_menu">
+            <li class="sub_item">
+              <a href="./about.html"> О проекте </a>
+            </li>
+            <li class="sub_item">
+              <a href="./entrepreneurs.html"> Бизнесу </a>
+            </li>
+            <li class="sub_item">
+              <a href="./schools-teachers.html"> Школам и учителям </a>
+            </li>
+            <li class="sub_item">
+              <a href="./residents.html"> Жителям </a>
+            </li>
+          </ul>
+        </li>
+        <li class="first_lvl">
+          <a href="./life_with_a_dog.html">Жизнь с собакой</a>
+          <ul class="sub_menu">
+            <li class="sub_item">
+              <a class="dropdown-menu__link" href="./life_with_a_dog.html">
+                Вместе в радости и здоровье!
+              </a>
+            </li>
+            <li class="sub_item">
+              <a href="./dog_friendly.html" class="dropdown-menu__link">
+                Дог Френдли
+              </a>
+            </li>
+            <li class="sub_item">
+              <a href="./health-and-care.html"> Здоровье и уход </a>
+            </li>
+            <li class="sub_item">
+              <a href="./studying-training.html"> Обучение и тренировка </a>
+            </li>
+            <li class="sub_item">
+              <a href="./get-a-pet.html"> Как завести питомца </a>
+            </li>
+            <li class="sub_item">
+              <a href="./travelling-with-a-dog.html"> Путешествия с собакой </a>
+            </li>
+            <li class="sub_item">
+              <a href="./gides.html"> Инструкции и гайды </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="/news.html">Новости</a>
+        </li>
+      </ul>
+      <!-- Кнопка для открытия меню (бургер) -->
+      <div class="menu-toggle" id="mobile-menu">
+        <img src="./img/popup-bottom.png" alt="" />
+      </div>
+    </header>
+
+    <!-- Попап меню -->
+    <div class="popup-menu" id="popup-menu">
+      <div class="popup-menu__content">
+        <div class="popup-menu__header">
+          <a href="/" class="logo">
+            <img src="./img/logo.png" alt="Logo" />
+          </a>
+          <button class="popup-menu__close">&times;</button>
+        </div>
+
+        <ul class="popup-nav">
+          <li>
+            <a class="mobile" href="/map.html">Карта Дог Френдли мест</a>
+          </li>
+          <li class="popup-first-lvl active">
+            <a href="./life_with_a_dog.html">Жизнь с собакой </a>
+            <ul class="popup-sub-menu">
+              <li>
+                <a href="./life_with_a_dog.html"
+                  >Вместе в радости и здоровье!</a
+                >
+              </li>
+              <li>
+                <a href="./dog_friendly.html">Дог Френдли</a>
+              </li>
+              <li>
+                <a href="./health-and-care.html">Здоровье и уход</a>
+              </li>
+              <li>
+                <a href="./studying-training.html">Обучение и тренировка</a>
+              </li>
+              <li>
+                <a href="./get-a-pet.html">Как завести питомца</a>
+              </li>
+              <li>
+                <a href="./travelling-with-a-dog.html">Путешествия с собакой</a>
+              </li>
+              <li>
+                <a href="./gides.html">Инструкции и гайды</a>
+              </li>
+            </ul>
+          </li>
+          <li class="popup-first-lvl active">
+            <a href="/about.html">О Проекте </a>
+            <ul class="popup-sub-menu">
+              <li>
+                <a href="./about.html">О проекте</a>
+              </li>
+              <li>
+                <a href="./entrepreneurs.html">Бизнесу</a>
+              </li>
+              <li>
+                <a href="./schools-teachers.html">Школам и учителям</a>
+              </li>
+              <li>
+                <a href="./residents.html">Жителям</a>
+              </li>
+            </ul>
+          </li>
+          <li class="popup-first-lvl active">
+            <a href="#">Прочее</a>
+            <ul class="popup-sub-menu">
+              <li>
+                <a href="/map.html">Карта Дог Френдли мест</a>
+              </li>
+              <li>
+                <a href="/news.html">Новости</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--  -->
+    <img src="./img/news-detail/potatos.svg" alt="" class="potatos" />
+    <div class="element">
+      <div class="breadcrumbs">
+        <ul>
+          <li>
+            <a href="/"> Главная </a>
+          </li>
+          <li>
+            <span class="line">/</span>
+          </li>
+          <li>
+            <a href="./news.html"> Новости </a>
+          </li>
+          <li>
+            <span class="line">/</span>
+          </li>
+          <li>
+            <span> Открытие площадки для собак в Салават Купере </span>
+          </li>
+        </ul>
+      </div>
+      <div class="date">16.05.23</div>
+      <div class="title">
+        <div class="news-title">
+          Чем занимается первый в России менеджер по развитию дог-френдли среды
+        </div>
+        <div class="author">
+          Дарья Раёк, специалист Института развития городов Татарстана
+        </div>
+      </div>
+      <div class="image_news">
+        <picture>
+          <img
+            src="./img/news-detail/90ac56d7d3e7b7fb8c3f8719406fc5f4.png"
+            alt=""
+          />
+        </picture>
+      </div>
+      <div class="text1">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;В конце 2022
+        года в Татарстане появился первый в стране проект по развитию
+        дог-френдли среды, включающий в себя создание инфраструктуры,
+        просвещение людей с питомцами и без, а также решение вопросов с
+        воспитанием собак и сокращением безнадзорных животных. «Проект развития
+        культуры ответственного отношения к животным» запустили на базе
+        Института развития городов РТ.
+        <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Менеджером
+        развития дог-френдли среды стала владелица двух собак и двух кошек Дарья
+        Раёк. Ее опыт в зоосфере превышает десять лет: Дарья занималась
+        организацией социальных и спортивных кинологических мероприятий,
+        взаимодействием с зоозащитными организациями, чтением лекций и работой с
+        зообизнесом, а также прошла обучение на специалиста по канистерапии —
+        реабилитации с использованием специально отобранных и обученных собак.
+        <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Мы
+        постарались узнать у Дарьи все о дог-френдли среде, а она рассказала
+        нам, можно ли решить проблему с безнадзорными собаками, повысить уровень
+        ответственности за животных и как стать ответственным собаководом.
+      </div>
+      <div class="quote">
+        <div class="text">
+          Для нескольких поколений людей здесь, содержание собаки – норма
+        </div>
+        <div class="author_quote">
+          <picture>
+            <img src="./img/news-detail/author.png" alt="Автор" />
+          </picture>
+          <div class="name_author">
+            <div class="full_name">Елена Печорская</div>
+            <div class="post">Идущая к реке</div>
+          </div>
+        </div>
+      </div>
+      <div class="question">
+        <ul>
+          <li>
+            <div class="title_li">
+              Чем вы занимаетесь как куратор «Проекта развития культуры
+              ответственного отношения к домашним животным»?
+            </div>
+            <div class="description">
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;«Моя
+              задача — в объединении всех групп и сообществ, которые участвуют в
+              создании дог-френдли среды. У нас есть специалисты: кинологи,
+              хендлеры (подготавливающие собаку к выставке. — Прим. «Инде»),
+              грумеры (мастера по уходу за домашними животными. — Прим. «Инде»),
+              ветеринары, а также владельцы самих собак и погруженные в
+              дог-френдли среду сервисные бизнесы. Еще существуют люди,
+              работающие с безнадзорными животными, — зооволонтеры или
+              профильные организации. Я, как куратор, должна сделать их
+              видимыми, познакомить друг с другом, понять, как учесть
+              потребности всех сообществ и помочь им реализовать свои идеи в
+              городе.»
+            </div>
+          </li>
+          <li>
+            <div class="title_li">Какие города сейчас охватывает проект?</div>
+            <div class="description">
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              «Казань, Набережные Челны, Альметьевск, Лениногорск. В планах —
+              Нижнекамск. В Лениногорске очень классное сообщество, которое само
+              включилось в эту повестку. Например, в прошлом году они выиграли
+              грант и поставили площадку для собак. Мы стараемся с ними активно
+              взаимодействовать. Например, подключили их к празднику, который
+              организовал другой наш департамент — проект «Наш двор». Было
+              классно наблюдать, с какой готовностью владельцы собак
+              рассказывают детям о породе своего питомца, его особенностях,
+              воспитании и как отзываются дети — задают вопросы, учатся
+              правильно знакомиться с собакой, интересуются, сколько времени
+              занимают прогулки и дрессировка. О таком не говорят в школе и дома
+              — если в нем нет собаки, — но это то, с чем может встретиться
+              ребенок в жизни. Важно уже в детском возрасте формировать
+              понимание того, что собака — такая же биологическая единица, как
+              он сам. И у нее есть потребности, которые ответственный владелец
+              должен учитывать.»
+            </div>
+          </li>
+          <li>
+            <div class="title_li">
+              Где ситуация с дог-френдли средой пока лучше?
+            </div>
+            <div class="description">
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              «Очевидно, лучше всего в Казани. Надо понимать, здесь есть связь с
+              исторически сложившейся культурой содержания собаки. Город
+              существует давно, он многоэтажный и многоквартирный, для
+              нескольких поколений людей здесь содержание собаки дома — норма.
+              Если мы уезжаем в другие города, то видим много частных секторов,
+              где у собаки функционал охранника. При этом она в полной мере им
+              не является, но сидит на цепи во дворе, где с ней не гуляют, ее не
+              моют, типичные для ее вида потребности в движении, исследовании
+              нового не удовлетворяются. Соответственно, там понятие
+              собаки-компаньона продвигается медленнее, чем в Казани. Мое личное
+              наблюдение: нередко люди заводят условно «декоративных» спаниелей
+              или биглей и тоже селят их в будках на улице, просто потому, что
+              нет другого паттерна поведения.
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Самый
+              удивительный диалог у меня случился на улице, когда я гуляла со
+              своим крупным американским бульдогом на поводке. Мне навстречу шел
+              мужчина, притянувший к себе ребенка, потому что собака якобы может
+              его укусить. Я говорю: «Нет, он не кусается». Далее мужчина
+              произносит потрясающую фразу: «А зачем тогда вам собака нужна?» То
+              есть ему не нравится и то, что она не кусается.
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Одно
+              время СМИ активно разжигали конфликт с собаками, и возникло
+              понятие «бойцовая», хотя такого в классификации Российской
+              кинологической федерации в принципе нет. Когда ко мне подходят и
+              спрашивают: «У вас бойцовая собака?», я отвечаю: «Нет, служебная».
+              Изначально собак выводили для работы с человеком. Они закрывают
+              огромное количество психоэмоциональных потребностей людей — в том
+              числе об этом должен рассказывать наш проект.»
+            </div>
+          </li>
+        </ul>
+      </div>
+      <picture class="end_news_line">
+        <img src="./img/news-detail/line2.svg" alt="" />
+      </picture>
+      <div class="text2">
+        <span>
+          Развитие дог-френдли среды нужно прежде всего для того, чтобы
+          снижалось количество бездомных животных. Их можно бесконечно
+          отлавливать, но такой подход не даст нужный результат. Пока владельцы
+          не проникнутся культурой стерилизации, пока каждый не поймет, что
+          выложенная у помоек еда усугубляет проблему, мы вопрос не решим.
+        </span>
+        <span>
+          Также хочется воспитывать во владельцах уважительное отношение к
+          среде, в которой они живут. Я в этой сфере больше десяти лет и могу
+          сказать: за последние пять владельцы собак сделали огромный шаг в
+          плане уборки за животными. Она потихоньку становится нормой.
+        </span>
+      </div>
+      <div class="image_news2">
+        <picture>
+          <img src="./img/news-detail/img_news2.png" alt="" />
+        </picture>
+      </div>
+      <div class="footer_news">
+        <div class="photo_author">Фото: Галина Овчинникова</div>
+        <div class="soc_media_news">
+          <span> Поделиться новостью: </span>
+          <div class="list_soc_media">
+            <a href="/">
+              <img src="./img/icon/telegram1.svg" alt="" />
+            </a>
+            <a href="/">
+              <img src="./img/icon/twitter1.svg" alt="" />
+            </a>
+            <a href="/">
+              <img src="./img/icon/whatsupp1.svg" alt="" />
+            </a>
+            <a href="/">
+              <img src="./img/icon/vk.svg" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="form">
+        <div class="desc">
+          <div class="title">
+            Есть вопросы или предложения?<br />Напиши нам!
+          </div>
+          <img src="./img/main-page/form.png" alt="" />
+          <div class="phone">
+            <span>Номер горячей линии</span>
+            <a href="tel:+7 800 555 35 35">+7 800 555 35 35</a>
+          </div>
+        </div>
+        <form>
+          <div class="input">
+            <label for="name"> Имя и Фамилия </label>
+            <input type="text" name="name" placeholder="Ваше имя и Фамилия" />
+          </div>
+          <div class="input">
+            <label for="phone"> Телефон / ник в Телеграм </label>
+            <input type="text" name="phone" placeholder="Ваш телефон или ник" />
+          </div>
+          <div class="input">
+            <label for="E-mail"> E-mail </label>
+            <input type="text" name="E-mail" placeholder="Ваш E-mail" />
+          </div>
+          <div class="input">
+            <label for="comment"> Комментарий </label>
+            <textarea name="comment" placeholder="Ваш комментарий"></textarea>
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" name="checkbox" class="yellow-checkbox" />
+            <label for="checkbox"
+              >Даю согласие на обработку персональных данных</label
+            >
+          </div>
+          <button>Отправить заявку</button>
+        </form>
+      </div>
+      <div class="footer">
+        <div class="container">
+          <div class="column">
+            <a href="/" class="logo">
+              <img src="./img/white-logo.png" alt="Logo" />
+            </a>
+            <a href="/" class="police">Политика конфиденциальности</a>
+          </div>
+          <div class="column menu">
+            <ul>
+              <li>
+                <a href="/map.html"> Карта Дог-френдли мест </a>
+              </li>
+              <li>
+                <a href="/about.html"> О проекте </a>
+              </li>
+              <li>
+                <a href="/life_with_a_dog.html"> Жизнь с собакой </a>
+              </li>
+              <li>
+                <a href="/news.html"> Новости </a>
+              </li>
+              <li>
+                <a href="/"> Контакты </a>
+              </li>
+            </ul>
+          </div>
+          <div class="column">
+            <div class="info">
+              <a href="tel:+7 800 555 35 35" class="tel"> +7 800 555 35 35 </a>
+              <a href="mail:contact@gmail.com" class="mail">
+                contact@gmail.com
+              </a>
+            </div>
+            <div class="soc_media">
+              <a href="/" class="facebook">
+                <img src="./img/icon/facebook.svg" alt="facebook" />
+              </a>
+              <a href="/" class="youtube">
+                <img src="./img/icon/youtube.svg" alt="youtube" />
+              </a>
+              <a href="/" class="instagram">
+                <img src="./img/icon/instagram.svg" alt="instagram" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/components/popup.js"></script>
+  </body>
+</html>

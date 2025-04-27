@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./css/map.css" />
+    <title>Карта Дог Френдли мест</title>
+  </head>
+  <body>
+    <header>
+      <a href="/" class="logo">
+        <img src="./img/logo.png" alt="Logo" />
+      </a>
+      <ul class="nav">
+        <li>
+          <a href="/map.html">Карта Дог Френдли мест</a>
+        </li>
+        <li class="first_lvl">
+          <a href="/about.html">О Проекте </a>
+          <ul class="sub_menu">
+            <li class="sub_item">
+              <a href="./about.html"> О проекте </a>
+            </li>
+            <li class="sub_item">
+              <a href="./entrepreneurs.html"> Бизнесу </a>
+            </li>
+            <li class="sub_item">
+              <a href="./schools-teachers.html"> Школам и учителям </a>
+            </li>
+            <li class="sub_item">
+              <a href="./residents.html"> Жителям </a>
+            </li>
+          </ul>
+        </li>
+        <li class="first_lvl">
+          <a href="./life_with_a_dog.html">Жизнь с собакой</a>
+          <ul class="sub_menu">
+            <li class="sub_item">
+              <a class="dropdown-menu__link" href="./life_with_a_dog.html">
+                Вместе в радости и здоровье!
+              </a>
+            </li>
+            <li class="sub_item">
+              <a href="./dog_friendly.html" class="dropdown-menu__link">
+                Дог Френдли
+              </a>
+            </li>
+            <li class="sub_item">
+              <a href="./health-and-care.html"> Здоровье и уход </a>
+            </li>
+            <li class="sub_item">
+              <a href="./studying-training.html"> Обучение и тренировка </a>
+            </li>
+            <li class="sub_item">
+              <a href="./get-a-pet.html"> Как завести питомца </a>
+            </li>
+            <li class="sub_item">
+              <a href="./travelling-with-a-dog.html"> Путешествия с собакой </a>
+            </li>
+            <li class="sub_item">
+              <a href="./gides.html"> Инструкции и гайды </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="/news.html">Новости</a>
+        </li>
+      </ul>
+      <!-- Кнопка для открытия меню (бургер) -->
+      <div class="menu-toggle" id="mobile-menu">
+        <img src="./img/popup-bottom.png" alt="" />
+      </div>
+    </header>
+
+    <div class="popup-menu" id="popup-menu">
+      <div class="popup-menu__content">
+        <div class="popup-menu__header">
+          <a href="/" class="logo">
+            <img src="./img/logo.png" alt="Logo" />
+          </a>
+          <button class="popup-menu__close">&times;</button>
+        </div>
+
+        <ul class="popup-nav">
+          <li>
+            <a class="mobile" href="/map.html">Карта Дог Френдли мест</a>
+          </li>
+          <li class="popup-first-lvl active">
+            <a href="./life_with_a_dog.html">Жизнь с собакой </a>
+            <ul class="popup-sub-menu">
+              <li>
+                <a href="./life_with_a_dog.html"
+                  >Вместе в радости и здоровье!</a
+                >
+              </li>
+              <li>
+                <a href="./dog_friendly.html">Дог Френдли</a>
+              </li>
+              <li>
+                <a href="./health-and-care.html">Здоровье и уход</a>
+              </li>
+              <li>
+                <a href="./studying-training.html">Обучение и тренировка</a>
+              </li>
+              <li>
+                <a href="./get-a-pet.html">Как завести питомца</a>
+              </li>
+              <li>
+                <a href="./travelling-with-a-dog.html">Путешествия с собакой</a>
+              </li>
+              <li>
+                <a href="./gides.html">Инструкции и гайды</a>
+              </li>
+            </ul>
+          </li>
+          <li class="popup-first-lvl active">
+            <a href="/about.html">О Проекте </a>
+            <ul class="popup-sub-menu">
+              <li>
+                <a href="./about.html">О проекте</a>
+              </li>
+              <li>
+                <a href="./entrepreneurs.html">Бизнесу</a>
+              </li>
+              <li>
+                <a href="./schools-teachers.html">Школам и учителям</a>
+              </li>
+              <li>
+                <a href="./residents.html">Жителям</a>
+              </li>
+            </ul>
+          </li>
+          <li class="popup-first-lvl active">
+            <a href="#">Прочее</a>
+            <ul class="popup-sub-menu">
+              <li>
+                <a href="/map.html">Карта Дог Френдли мест</a>
+              </li>
+              <li>
+                <a href="/news.html">Новости</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="map-page">
+      <img src="./img/map/potatos.svg" class="potatos" alt="/" />
+      <div class="map">
+        <div class="window active" id="mapLegend">
+          <div class="custom-select">
+            <select>
+              <option value="0">Выберите город:</option>
+              <option value="1">Москва</option>
+              <option value="2">Казань</option>
+            </select>
+          </div>
+
+          <ul class="list">
+            <li>
+              <div class="name">
+                <img src="./img/map/coffee.svg" alt="/" />
+                <span>Еда, кофе, рестораны</span>
+              </div>
+              <input type="checkbox" checked class="yellow-checkbox" />
+            </li>
+            <li>
+              <div class="name">
+                <img src="./img/map/coffee.svg" alt="/" />
+                <span>Игровые площадки</span>
+              </div>
+              <input type="checkbox" class="yellow-checkbox" />
+            </li>
+            <li>
+              <div class="name">
+                <img src="./img/map/Restaurant.svg" alt="/" />
+                <span>Магазины, супермаркеты, ТЦ</span>
+              </div>
+              <input type="checkbox" checked class="yellow-checkbox" />
+            </li>
+            <li>
+              <div class="name">
+                <img src="./img/map/coffee.svg" alt="/" />
+                <span>Зоогостиницы</span>
+              </div>
+              <input type="checkbox" class="yellow-checkbox" />
+            </li>
+            <li>
+              <div class="name">
+                <img src="./img/map/chik.svg" alt="/" />
+                <span>Груминг салоны</span>
+              </div>
+              <input type="checkbox" checked class="yellow-checkbox" />
+            </li>
+            <li>
+              <div class="name">
+                <img src="./img/map/coffee.svg" alt="/" />
+                <span>Парки</span>
+              </div>
+              <input type="checkbox" checked class="yellow-checkbox" />
+            </li>
+            <li>
+              <div class="name">
+                <img src="./img/map/coffee.svg" alt="/" />
+                <span>Парки</span>
+              </div>
+              <input type="checkbox" checked class="yellow-checkbox" />
+            </li>
+          </ul>
+          <div class="subfooter">
+            <a href="/">Подключить своё место</a>
+            <span
+              id="hideLegend"
+              data-hide-text="Скрыть"
+              data-show-text="Показать"
+              >Скрыть</span
+            >
+          </div>
+        </div>
+        <div class="window detail" id="mapDetail">
+          <div class="custom-select">
+            <select>
+              <option value="0">Выберите город:</option>
+              <option value="1">Москва</option>
+              <option value="2">Казань</option>
+            </select>
+          </div>
+          <div class="info_cafe">
+            <div class="name">
+              <img src="./img/map/coffee-shop-orange.svg" alt="" />
+              <span>Добрякова Bakery</span>
+            </div>
+            <span class="desc">
+              Дог-Френдли пекарня в районе Никтского бульвара
+            </span>
+          </div>
+          <div class="address">
+            <div class="point">
+              <img src="./img/map/gps.svg" alt="/" />
+              <span> Казань, ул. Вишневского, д. 49А </span>
+            </div>
+            <div class="clock">
+              <img src="./img/map/clock.svg" alt="clock" />
+              <span>08:00 - 20:00</span>
+            </div>
+            <a href="/">Проложить маршрут</a>
+          </div>
+          <div class="level">
+            <span class="title"> Уровень дог-френдли </span>
+            <div class="lvl medium">
+              <div class="circles">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <span class="txt"> Медиум </span>
+            </div>
+          </div>
+          <span id="backToLegend" class="legend-link">Вернуться к легенде</span>
+          <p
+            id="hideLegend_2"
+            data-hide-text="Скрыть"
+            data-show-text="Показать"
+          >
+            Скрыть
+          </p>
+        </div>
+        <div class="marks">
+          <img src="./img/map/6.svg" alt="6" class="six" />
+          <img src="./img/map/12.svg" alt="12" class="twelve" />
+          <img src="./img/map/2.svg" alt="2" class="two" />
+          <img src="./img/map/4.svg" alt="4" class="four" />
+          <img src="./img/map/14.svg" alt="14" class="fourteen" />
+          <img
+            src="./img/map/supermarket_1.svg"
+            alt="supermarket"
+            class="super-top"
+          />
+          <img
+            src="./img/map/supermarket_1.svg"
+            alt="supermarket"
+            class="super"
+          />
+          <img src="./img/map/coffee.svg" alt="coffee" class="coffee" />
+        </div>
+      </div>
+      <div class="content">
+        <div class="first_block">
+          <div class="title">Градация Дог Френдли мест</div>
+          <div class="gradation">
+            <div class="card light">
+              <div class="circles">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <span class="title"> Лайт дог-френдли </span>
+              <div class="description">
+                Список кинологов и спортивных секций республики Список кинологов
+                и спортивных секций республики
+              </div>
+            </div>
+            <div class="card medium">
+              <div class="circles">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <span class="title"> Медиум дог-френдли </span>
+              <div class="description">
+                Список кинологов и спортивных секций республики Список кинологов
+                и спортивных секций республики
+              </div>
+            </div>
+            <div class="card hard">
+              <div class="circles">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <span class="title"> Хард дог-френдли </span>
+              <div class="description">
+                Список кинологов и спортивных секций республики Список кинологов
+                и спортивных секций республики
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="second_block">
+          <div class="text">
+            <div class="text__title">Как быть приятным гостем</div>
+            <ul class="list">
+              <li>
+                Мы стараемся с ними активно взаимодействовать. Например,
+                подключили их к празднику, который организовал другой наш
+                департамент — проект «Наш двор». Было классно наблюдать, с какой
+                готовностью владельцы собак
+              </li>
+              <li>
+                О таком не говорят в школе и дома — если в нем нет собаки, — но
+                это то, с чем может встретиться ребенок в жизни. Важно уже в
+                детском возрасте формировать понимание того, что собака — такая
+                же биологическая единица, как он сам.
+              </li>
+            </ul>
+            <span>
+              Самый удивительный диалог у меня случился на улице, когда я гуляла
+              со своим крупным американским бульдогом на поводке. Мне навстречу
+              шел мужчина, притянувший к себе ребенка, потому что собака якобы
+              может его укусить.
+            </span>
+          </div>
+          <picture>
+            <img src="./img/map/dog.png" />
+          </picture>
+        </div>
+        <div class="third_block">
+          <div class="form">
+            <div class="form__title">Размещение на карте</div>
+            <ul class="list">
+              <li>Приводим новую аудиторию</li>
+              <li>Повышаем средний чек</li>
+              <li>Создаём репутацию открытого и чуткого бизнеса</li>
+              <li>Рассказываем о вашем проверенном месте</li>
+            </ul>
+            <span>
+              Мы размещаем на карте любой бизнес, который готов видеть у себя
+              собак любых пород и размеров и имеет физическую точку на карте
+            </span>
+            <div class="btns">
+              <a href="/" class="black_btn"> Подать заявку </a>
+              <a href="/" class="white_btn"> Как стать дог френдли </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="form">
+        <div class="desc">
+          <div class="title">
+            Есть вопросы или предложения?<br />Напиши нам!
+          </div>
+          <img src="./img/main-page/form.png" alt="" />
+          <div class="phone">
+            <span>Номер горячей линии</span>
+            <a href="tel:+7 800 555 35 35">+7 800 555 35 35</a>
+          </div>
+        </div>
+        <form>
+          <div class="input">
+            <label for="name"> Имя и Фамилия </label>
+            <input type="text" name="name" placeholder="Ваше имя и Фамилия" />
+          </div>
+          <div class="input">
+            <label for="phone"> Телефон / ник в Телеграм </label>
+            <input type="text" name="phone" placeholder="Ваш телефон или ник" />
+          </div>
+          <div class="input">
+            <label for="E-mail"> E-mail </label>
+            <input type="text" name="E-mail" placeholder="Ваш E-mail" />
+          </div>
+          <div class="input">
+            <label for="comment"> Комментарий </label>
+            <textarea name="comment" placeholder="Ваш комментарий"></textarea>
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" name="checkbox" class="yellow-checkbox" />
+            <label for="checkbox"
+              >Даю согласие на обработку персональных данных</label
+            >
+          </div>
+          <button>Отправить заявку</button>
+        </form>
+      </div>
+      <div class="footer">
+        <div class="container">
+          <div class="column">
+            <a href="/" class="logo">
+              <img src="./img/white-logo.png" alt="Logo" />
+            </a>
+            <a href="/" class="police">Политика конфиденциальности</a>
+          </div>
+          <div class="column menu">
+            <ul>
+              <li>
+                <a href="/map.html"> Карта Дог-френдли мест </a>
+              </li>
+              <li>
+                <a href="/about.html"> О проекте </a>
+              </li>
+              <li>
+                <a href="/life_with_a_dog.html"> Жизнь с собакой </a>
+              </li>
+              <li>
+                <a href="/news.html"> Новости </a>
+              </li>
+              <li>
+                <a href="/"> Контакты </a>
+              </li>
+            </ul>
+          </div>
+          <div class="column">
+            <div class="info">
+              <a href="tel:+7 800 555 35 35" class="tel"> +7 800 555 35 35 </a>
+              <a href="mail:contact@gmail.com" class="mail">
+                contact@gmail.com
+              </a>
+            </div>
+            <div class="soc_media">
+              <a href="/" class="facebook">
+                <img src="./img/icon/facebook.svg" alt="facebook" />
+              </a>
+              <a href="/" class="youtube">
+                <img src="./img/icon/youtube.svg" alt="youtube" />
+              </a>
+              <a href="/" class="instagram">
+                <img src="./img/icon/instagram.svg" alt="instagram" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/components/custom-select.js"></script>
+    <script src="./js/map.js"></script>
+    <script src="./js/components/popup.js"></script>
+  </body>
+</html>

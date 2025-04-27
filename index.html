@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./plugins/glider.min.css" />
+    <link rel="stylesheet" href="./plugins/swiper/swiper-bundle.min.css" />
+
+    <title>Главная</title>
+  </head>
+  <body>
+    <header>
+      <a href="/" class="logo">
+        <img src="../img/logo.png" alt="Logo" />
+      </a>
+      <ul class="nav">
+        <li>
+          <a href="/map.html">Карта Дог Френдли мест</a>
+        </li>
+        <li class="first_lvl">
+          <a href="/about.html">О Проекте </a>
+          <ul class="sub_menu">
+            <li class="sub_item">
+              <a href="./about.html"> О проекте </a>
+            </li>
+            <li class="sub_item">
+              <a href="./entrepreneurs.html"> Бизнесу </a>
+            </li>
+            <li class="sub_item">
+              <a href="./schools-teachers.html"> Школам и учителям </a>
+            </li>
+            <li class="sub_item">
+              <a href="./residents.html"> Жителям </a>
+            </li>
+          </ul>
+        </li>
+        <li class="first_lvl">
+          <a href="./life_with_a_dog.html">Жизнь с собакой</a>
+          <ul class="sub_menu">
+            <li class="sub_item">
+              <a class="dropdown-menu__link" href="./life_with_a_dog.html">
+                Вместе в радости и здоровье!
+              </a>
+            </li>
+            <li class="sub_item">
+              <a href="./dog_friendly.html" class="dropdown-menu__link">
+                Дог Френдли
+              </a>
+            </li>
+            <li class="sub_item">
+              <a href="./health-and-care.html"> Здоровье и уход </a>
+            </li>
+            <li class="sub_item">
+              <a href="./studying-training.html"> Обучение и тренировка </a>
+            </li>
+            <li class="sub_item">
+              <a href="./get-a-pet.html"> Как завести питомца </a>
+            </li>
+            <li class="sub_item">
+              <a href="./travelling-with-a-dog.html"> Путешествия с собакой </a>
+            </li>
+            <li class="sub_item">
+              <a href="./gides.html"> Инструкции и гайды </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="/news.html">Новости</a>
+        </li>
+      </ul>
+      <!-- Кнопка для открытия меню (бургер) -->
+      <div class="menu-toggle" id="mobile-menu">
+        <img src="./img/popup-bottom.png" alt="" />
+      </div>
+    </header>
+
+    <!-- Попап меню -->
+    <div class="popup-menu" id="popup-menu">
+      <div class="popup-menu__content">
+        <div class="popup-menu__header">
+          <a href="/" class="logo">
+            <img src="./img/logo.png" alt="Logo" />
+          </a>
+          <button class="popup-menu__close">&times;</button>
+        </div>
+
+        <ul class="popup-nav">
+          <li>
+            <a class="mobile" href="/map.html">Карта Дог Френдли мест</a>
+          </li>
+          <li class="popup-first-lvl active">
+            <a href="./life_with_a_dog.html">Жизнь с собакой </a>
+            <ul class="popup-sub-menu">
+              <li>
+                <a href="./life_with_a_dog.html"
+                  >Вместе в радости и здоровье!</a
+                >
+              </li>
+              <li>
+                <a href="./dog_friendly.html">Дог Френдли</a>
+              </li>
+              <li>
+                <a href="./health-and-care.html">Здоровье и уход</a>
+              </li>
+              <li>
+                <a href="./studying-training.html">Обучение и тренировка</a>
+              </li>
+              <li>
+                <a href="./get-a-pet.html">Как завести питомца</a>
+              </li>
+              <li>
+                <a href="./travelling-with-a-dog.html">Путешествия с собакой</a>
+              </li>
+              <li>
+                <a href="./gides.html">Инструкции и гайды</a>
+              </li>
+            </ul>
+          </li>
+          <li class="popup-first-lvl active">
+            <a href="/about.html">О Проекте </a>
+            <ul class="popup-sub-menu">
+              <li>
+                <a href="./about.html">О проекте</a>
+              </li>
+              <li>
+                <a href="./entrepreneurs.html">Бизнесу</a>
+              </li>
+              <li>
+                <a href="./schools-teachers.html">Школам и учителям</a>
+              </li>
+              <li>
+                <a href="./residents.html">Жителям</a>
+              </li>
+            </ul>
+          </li>
+          <li class="popup-first-lvl active">
+            <a href="#">Прочее</a>
+            <ul class="popup-sub-menu">
+              <li>
+                <a href="/map.html">Карта Дог Френдли мест</a>
+              </li>
+              <li>
+                <a href="/news.html">Новости</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- -->
+
+    <div class="glider-banner" style="max-height: 800px; overflow: hidden">
+      <div class="glider">
+        <div class="slide" style="background-image: url(./img/banner.png)">
+          <div class="slide-text">
+            <div class="title">
+              Дог Френдли Татарстан
+              <img
+                src="./img/main-page/banner-lines.svg"
+                alt=""
+                class="lines"
+              />
+            </div>
+            <div class="description">
+              Создаем дружелюбную среду, вовлекаем в ответственное
+              <span>
+                собаководство.
+                <img
+                  src="./img/main-page/banner-one-line.svg"
+                  alt=""
+                  class="line"
+                />
+              </span>
+            </div>
+          </div>
+          <div class="button-white">Подробнее</div>
+        </div>
+        <div class="slide" style="background-image: url(./img/banner.png)">
+          <div class="slide-text">
+            <img src="./img/main-page/banner-lines.svg" alt="" class="lines" />
+            <div class="title">Дог Френдли Татарстан</div>
+            <div class="description">
+              Создаем дружелюбную среду, вовлекаем в ответственное
+              собаководство.
+            </div>
+            <img
+              src="./img/main-page/banner-one-line.svg"
+              alt=""
+              class="line"
+            />
+          </div>
+          <div class="button-white">Подробнее</div>
+        </div>
+        <div class="slide" style="background-image: url(./img/banner.png)">
+          <div class="slide-text">
+            <img src="./img/main-page/banner-lines.svg" alt="" class="lines" />
+            <div class="title">Дог Френдли Татарстан</div>
+            <div class="description">
+              Создаем дружелюбную среду, вовлекаем в ответственное
+              собаководство.
+            </div>
+            <img
+              src="./img/main-page/banner-one-line.svg"
+              alt=""
+              class="line"
+            />
+          </div>
+          <div class="button-white">Подробнее</div>
+        </div>
+        <div class="slide" style="background-image: url(./img/banner.png)">
+          <div class="slide-text">
+            <img src="./img/main-page/banner-lines.svg" alt="" class="lines" />
+            <div class="title">Дог Френдли Татарстан</div>
+            <div class="description">
+              Создаем дружелюбную среду, вовлекаем в ответственное
+              собаководство.
+            </div>
+            <img
+              src="./img/main-page/banner-one-line.svg"
+              alt=""
+              class="line"
+            />
+          </div>
+          <div class="button-white">Подробнее</div>
+        </div>
+      </div>
+      <div role="tablist" id="dots"></div>
+    </div>
+    <div class="content main-page">
+      <div class="second_block">
+        <div class="column">
+          <div class="title">Карта Дог Френдли мест республики Татарстан</div>
+          <div class="description">
+            Рестораны, кофейнени, парки, груминги, зоомагазины, собачьи
+            площадки, ветеринарные клиники и торговые центры уже ждут вас.
+          </div>
+          <a href="/map.html" class="btn"> Перейти на карту </a>
+        </div>
+        <div class="column">
+          <img
+            src="./img/main-page/maps.png"
+            srcset="
+              ./img/main-page/maps-mobile.png  390w,
+              ./img/main-page/maps-laptop.png 1000w,
+              ./img/main-page/maps.png        1296w
+            "
+            sizes="(max-width: 760px) 390px,
+            (max-width: 1295px) 834px,
+            1296px"
+            alt="Карта"
+          />
+        </div>
+      </div>
+      <div class="thirth_block">
+        <div class="title">
+          <span> Новости и события </span>
+          <div class="btns-next-prev">
+            <div id="btn-prev-news">
+              <img src="./img/icon/prev-arrow.svg" alt="prev" />
+            </div>
+            <div id="btn-next-news">
+              <img src="./img/icon/next-arrow.svg" alt="next" />
+            </div>
+          </div>
+        </div>
+        <div
+          class="glider_news"
+          style="
+            display: grid;
+            overflow: hidden;
+            grid-template-columns: repeat(12, max-content);
+            grid-column-gap: 24px;
+          "
+        >
+          <div class="slide">
+            <div class="image">
+              <img src="./img/main-page/news1.png" />
+            </div>
+            <span class="date"> 16.05.23 </span>
+            <span class="title_news">
+              Открытие площадки для собак в Салават Купере
+            </span>
+            <a href="/news-detail.html" class="btn_news"> Подробнее </a>
+          </div>
+          <div class="slide">
+            <div class="image">
+              <img src="./img/main-page/news2.png" />
+            </div>
+            <span class="date"> 16.05.23 </span>
+            <span class="title_news">
+              Открытие площадки для собак в Салават Купере
+            </span>
+            <a href="/news-detail.html" class="btn_news"> Подробнее </a>
+          </div>
+          <div class="slide">
+            <div class="image">
+              <img src="./img/main-page/news3.png" />
+            </div>
+            <span class="date"> 16.05.23 </span>
+            <span class="title_news">
+              Открытие площадки для собак в Салават Купере
+            </span>
+            <a href="/news-detail.html" class="btn_news"> Подробнее </a>
+          </div>
+          <div class="slide">
+            <div class="image">
+              <img src="./img/main-page/news1.png" />
+            </div>
+            <span class="date"> 16.05.23 </span>
+            <span class="title_news">
+              Открытие площадки для собак в Салават Купере
+            </span>
+            <a href="/news-detail.html" class="btn_news"> Подробнее </a>
+          </div>
+        </div>
+        <img src="./img/icon/potato.svg" alt="" class="potato" />
+      </div>
+      <div class="fourth_block">
+        <div class="column" style="background-color: #222">
+          <div class="title">Жителям</div>
+          <div class="description">
+            Активные сообщества: чаты, площадки, контакты специалистов
+          </div>
+          <a href="/residents.html" class="btn-white"> Подробнее </a>
+          <img src="./img/main-page/dog1.png" class="dog" alt="dog" />
+          <img src="./img/main-page/line-dog1.png" class="lines" />
+        </div>
+        <div class="column" style="background-color: #fff">
+          <div class="title">Бизнесменам</div>
+          <div class="description">
+            <ul>
+              <li>Как и зачем стать дог-френдли бизнесом</li>
+              <li>Попасть на нашу карту дог-френдли мест</li>
+            </ul>
+          </div>
+          <a href="/entrepreneurs.html" class="btn-black"> Подробнее </a>
+          <img src="./img/main-page/dog2.png" class="dog" alt="dog" />
+          <img src="./img/main-page/line-dog2.png" class="lines" />
+        </div>
+        <div class="column" style="background-color: #d7db2d">
+          <div class="title">Школам</div>
+          <div class="description">
+            <ul>
+              <li>Материалы для занятий</li>
+              <li>Собака и ребёнок</li>
+            </ul>
+          </div>
+          <a href="/schools-teachers.html" class="btn-white"> Подробнее </a>
+          <img src="./img/main-page/dog3.png" class="dog" alt="dog" />
+          <img src="./img/main-page/line-dog3.png" class="lines" />
+        </div>
+      </div>
+    </div>
+    <section class="free-cours">
+      <div class="free-cours__items">
+        <div class="free-cours__item cours-article cours-article--one">
+          <div class="cours-article__inner">
+            <div class="cours-article__image">
+              <img
+                src="./img/main-page/card1.png"
+                alt="Собачка"
+                class="cours-article__img"
+              />
+            </div>
+            <div class="cours-article__content cours-article__content--orange">
+              <div class="cours-article__box-text">
+                <h2 class="cours-article__title cours-article__title--del">
+                  Платный курс для владельцев собаки
+                </h2>
+                <h2 class="cours-article__title cours-article__title--mob">
+                  Бесплатный курс для владельцев собаки
+                </h2>
+                <span class="cours-article__text">
+                  Правильное содержание собаки
+                </span>
+                <a href="#" class="cours-article__link btn-link btn-black"
+                  >Пройти курс бесплатно</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="cours-article__bottom"></div>
+        </div>
+        <div class="free-cours__item cours-article cours-article--two">
+          <div class="cours-article__inner">
+            <div class="cours-article__image">
+              <img
+                src="./img/main-page/card2.png"
+                alt="Собачка"
+                class="cours-article__img"
+              />
+            </div>
+            <div class="cours-article__content cours-article__content--yellow">
+              <div class="cours-article__box-text">
+                <span class="cours-article__text">
+                  Направления <span class="line">дрессировки</span> - плюсы,
+                  минусы, отличия
+                </span>
+                <a href="#" class="cours-article__link btn-link btn-black"
+                  >Пройти курс бесплатно</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="cours-article__bottom"></div>
+        </div>
+        <div class="free-cours__item cours-article cours-article--three">
+          <div class="cours-article__inner">
+            <div class="cours-article__image">
+              <img
+                src="./img/main-page/card3.png"
+                alt="Собачка"
+                class="cours-article__img"
+              />
+            </div>
+            <div class="cours-article__content cours-article__content--orange">
+              <div class="cours-article__box-text">
+                <h2 class="cours-article__text">
+                  Виды спорта - для чего собаке спорт, какие «проблемы» можно
+                  решить с помощью спорта, как выбрать занятие исходя из
+                  темперамента
+                </h2>
+                <a href="#" class="cours-article__link btn-link btn-black"
+                  >Пройти курс бесплатно</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="cours-article__bottom"></div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="form">
+        <div class="desc">
+          <div class="title">
+            Есть вопросы или предложения?<br />Напиши нам!
+          </div>
+          <img src="./img/main-page/form.png" alt="" />
+          <div class="phone">
+            <span>Номер горячей линии</span>
+            <a href="tel:+7 800 555 35 35">+7 800 555 35 35</a>
+          </div>
+        </div>
+        <form>
+          <div class="input">
+            <label for="name"> Имя и Фамилия </label>
+            <input type="text" name="name" placeholder="Ваше имя и Фамилия" />
+          </div>
+          <div class="input">
+            <label for="phone"> Телефон / ник в Телеграм </label>
+            <input type="text" name="phone" placeholder="Ваш телефон или ник" />
+          </div>
+          <div class="input">
+            <label for="E-mail"> E-mail </label>
+            <input type="text" name="E-mail" placeholder="Ваш E-mail" />
+          </div>
+          <div class="input">
+            <label for="comment"> Комментарий </label>
+            <textarea name="comment" placeholder="Ваш комментарий"></textarea>
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" name="checkbox" class="yellow-checkbox" />
+            <label for="checkbox"
+              >Даю согласие на обработку персональных данных</label
+            >
+          </div>
+          <button>Отправить заявку</button>
+        </form>
+      </div>
+      <div class="footer">
+        <div class="container">
+          <div class="column">
+            <a href="/" class="logo">
+              <img
+                src="./img/logo.png"
+                srcset="./img/logo.png 850w, ./img/white-logo.png 1296w"
+                sizes="(max-width: 1295px) 850px, 1296px"
+                alt="Logo"
+              />
+            </a>
+            <a href="/" class="police">Политика конфиденциальности</a>
+          </div>
+          <div class="column menu">
+            <ul>
+              <li>
+                <a href="/map.html"> Карта Дог-френдли мест </a>
+              </li>
+              <li>
+                <a href="/about.html"> О проекте </a>
+              </li>
+              <li>
+                <a href="/life_with_a_dog.html"> Жизнь с собакой </a>
+              </li>
+              <li>
+                <a href="/news.html"> Новости </a>
+              </li>
+              <li>
+                <a href="/"> Контакты </a>
+              </li>
+              <a href="/" class="police_lt">Политика конфиденциальности</a>
+            </ul>
+          </div>
+          <div class="column">
+            <div class="info">
+              <a href="tel:+7 800 555 35 35" class="tel"> +7 800 555 35 35 </a>
+              <a href="mail:contact@gmail.com" class="mail">
+                contact@gmail.com
+              </a>
+            </div>
+            <div class="soc_media">
+              <a href="/" class="facebook">
+                <img src="./img/icon/facebook.svg" alt="facebook" />
+              </a>
+              <a href="/" class="youtube">
+                <img src="./img/icon/youtube.svg" alt="youtube" />
+              </a>
+              <a href="/" class="instagram">
+                <img src="./img/icon/instagram.svg" alt="instagram" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/components/popup.js"></script>
+    <script src="./plugins/swiper/swiper-bundle.min.js"></script>
+    <script src="./plugins/glider.min.js"></script>
+    <script src="./js/main-page.js" type="commonjs"></script>
+    <script>
+      window.addEventListener("load", function () {
+        new Glider(document.querySelector(".glider"), {
+          slidesToShow: 1,
+          dots: "#dots",
+          draggable: true,
+          scrollLock: true,
+        });
+        new Glider(document.querySelector(".glider_news"), {
+          slidesToShow: 3,
+          draggable: true,
+          arrows: {
+            prev: "#btn-prev-news",
+            next: "#btn-next-news",
+          },
+          scrollLock: true,
+        });
+        const clearStyle = document.querySelector(".glider_news");
+        clearStyle.style = "";
+      });
+    </script>
+  </body>
+</html>

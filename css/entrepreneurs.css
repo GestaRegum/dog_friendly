@@ -1,0 +1,1406 @@
+@font-face {
+  font-family: Mulish;
+  font-weight: 200;
+  font-style: normal;
+  src: url(../fonts/Mulish/Mulish-ExtraLight.ttf);
+}
+@font-face {
+  font-family: Mulish;
+  font-weight: 200;
+  font-style: italic;
+  src: url(../fonts/Mulish/Mulish-ExtraLightItalic.ttf);
+}
+@font-face {
+  font-family: Mulish;
+  font-weight: 300;
+  font-style: normal;
+  src: url(../fonts/Mulish/Mulish-Light.ttf);
+}
+@font-face {
+  font-family: Mulish;
+  font-weight: 300;
+  font-style: italic;
+  src: url(../fonts/Mulish/Mulish-LightItalic.ttf);
+}
+@font-face {
+  font-family: Mulish;
+  font-weight: 400;
+  font-style: normal;
+  src: url(../fonts/Mulish/Mulish-Regular.ttf);
+}
+@font-face {
+  font-family: Mulish;
+  font-weight: 400;
+  font-style: italic;
+  src: url(../fonts/Mulish/Mulish-Italic.ttf);
+}
+@font-face {
+  font-family: Mulish;
+  font-weight: 500;
+  font-style: normal;
+  src: url(../fonts/Mulish/Mulish-Medium.ttf);
+}
+@font-face {
+  font-family: Mulish;
+  font-weight: 500;
+  font-style: italic;
+  src: url(../fonts/Mulish/Mulish-MediumItalic.ttf);
+}
+@font-face {
+  font-family: Mulish;
+  font-weight: 600;
+  font-style: normal;
+  src: url(../fonts/Mulish/Mulish-SemiBold.ttf);
+}
+@font-face {
+  font-family: Mulish;
+  font-weight: 600;
+  font-style: italic;
+  src: url(../fonts/Mulish/Mulish-SemiBoldItalic.ttf);
+}
+@font-face {
+  font-family: Mulish;
+  font-weight: 700;
+  font-style: normal;
+  src: url(../fonts/Mulish/Mulish-Bold.ttf);
+}
+@font-face {
+  font-family: Mulish;
+  font-weight: 700;
+  font-style: italic;
+  src: url(../fonts/Mulish/Mulish-BoldItalic.ttf);
+}
+@font-face {
+  font-family: Mulish;
+  font-weight: 800;
+  font-style: normal;
+  src: url(./fonts/Mulish/Mulish-ExtraBold.ttf);
+}
+@font-face {
+  font-family: Mulish;
+  font-weight: 800;
+  font-style: italic;
+  src: url(../fonts/Mulish/Mulish-ExtraBoldItalic.ttf);
+}
+@font-face {
+  font-family: Noto Sans;
+  font-weight: 100;
+  font-style: normal;
+  src: url(../fonts/Noto_Sans/NotoSans-Thin.ttf);
+}
+@font-face {
+  font-family: Noto Sans;
+  font-weight: 100;
+  font-style: italic;
+  src: url(../fonts/Noto_Sans/NotoSans-ThinItalic.ttf);
+}
+@font-face {
+  font-family: Noto Sans;
+  font-weight: 200;
+  font-style: normal;
+  src: url(../fonts/Noto_Sans/NotoSans-ExtraLight.ttf);
+}
+@font-face {
+  font-family: Noto Sans;
+  font-weight: 200;
+  font-style: italic;
+  src: url(../fonts/Noto_Sans/NotoSans-ExtraLightItalic.ttf);
+}
+@font-face {
+  font-family: Noto Sans;
+  font-weight: 300;
+  font-style: normal;
+  src: url(../fonts/Noto_Sans/NotoSans-Light.ttf);
+}
+@font-face {
+  font-family: Noto Sans;
+  font-weight: 300;
+  font-style: italic;
+  src: url(../fonts/Noto_Sans/NotoSans-LightItalic.ttf);
+}
+@font-face {
+  font-family: Noto Sans;
+  font-weight: 400;
+  font-style: normal;
+  src: url(../fonts/Noto_Sans/NotoSans-Regular.ttf);
+}
+@font-face {
+  font-family: Noto Sans;
+  font-weight: 400;
+  font-style: italic;
+  src: url(../fonts/Noto_Sans/NotoSans-Italic.ttf);
+}
+@font-face {
+  font-family: Noto Sans;
+  font-weight: 500;
+  font-style: normal;
+  src: url(./fonts/Noto_Sans/NotoSans-Medium.ttf);
+}
+@font-face {
+  font-family: Noto Sans;
+  font-weight: 500;
+  font-style: italic;
+  src: url(../fonts/Noto_Sans/NotoSans-MediumItalic.ttf);
+}
+@font-face {
+  font-family: Noto Sans;
+  font-weight: 600;
+  font-style: normal;
+  src: url(../fonts/Noto_Sans/NotoSans-SemiBold.ttf);
+}
+@font-face {
+  font-family: Noto Sans;
+  font-weight: 600;
+  font-style: italic;
+  src: url(../fonts/Noto_Sans/NotoSans-SemiBoldItalic.ttf);
+}
+@font-face {
+  font-family: Noto Sans;
+  font-weight: 700;
+  font-style: normal;
+  src: url(./fonts/Noto_Sans/NotoSans-Bold.ttf);
+}
+@font-face {
+  font-family: Noto Sans;
+  font-weight: 700;
+  font-style: italic;
+  src: url(../fonts/Noto_Sans/NotoSans-BoldItalic.ttf);
+}
+@font-face {
+  font-family: Noto Sans;
+  font-weight: 800;
+  font-style: normal;
+  src: url(./fonts/Noto_Sans/NotoSans-ExtraBold.ttf);
+}
+@font-face {
+  font-family: Noto Sans;
+  font-weight: 800;
+  font-style: italic;
+  src: url(../fonts/Noto_Sans/NotoSans-ExtraBoldItalic.ttf);
+}
+@font-face {
+  font-family: Noto Sans;
+  font-weight: 900;
+  font-style: normal;
+  src: url(../fonts/Noto_Sans/NotoSans-Black.ttf);
+}
+@font-face {
+  font-family: Noto Sans;
+  font-weight: 900;
+  font-style: italic;
+  src: url(../fonts/Noto_Sans/NotoSans-BlackItalic.ttf);
+}
+@media (min-width: 1296px) {
+  .trn-entrepreneurs .title-wrapper {
+    max-width: 740px;
+    margin-bottom: 56px;
+  }
+  .trn-entrepreneurs .section-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 56px;
+  }
+  .trn-entrepreneurs .swiper-button {
+    position: static;
+    display: flex;
+    width: 32px;
+    height: 32px;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 20px;
+    background: #e7e7e7;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+  }
+  .trn-entrepreneurs .swiper-button::after {
+    display: flex;
+    content: "";
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .trn-entrepreneurs .swiper-button-prev::after {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="18" viewBox="0 0 10 18" fill="none"><path d="M9 17L1 9L9 1" stroke="%236F6F6F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+  }
+  .trn-entrepreneurs .swiper-button-next::after {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="18" viewBox="0 0 10 18" fill="none"><path d="M1 17L9 9L1 1" stroke="%236F6F6F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+  }
+  .trn-entrepreneurs .swiper-button:hover {
+    background: #fff;
+  }
+  .trn-entrepreneurs .swiper-buttons {
+    position: relative;
+    display: flex;
+    gap: 10px;
+  }
+  .trn-entrepreneurs .card {
+    position: relative;
+    border-radius: 24px;
+    overflow: hidden;
+  }
+  .trn-entrepreneurs .card-info {
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    display: flex;
+    width: 480px;
+    height: 240px;
+    padding: 30px 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 24px;
+    background: rgba(67, 67, 67, 0.1);
+    box-shadow: 0px 4px 53.1px 0px rgba(255, 255, 255, 0.25) inset;
+    -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px);
+    color: var(--Text-heads-white, #fff);
+    font-family: "Noto Sans";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+  }
+  .trn-entrepreneurs .card-info h5 {
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 36px;
+  }
+  .trn-entrepreneurs .card picture img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .trn-entrepreneurs .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    margin-bottom: 36px;
+  }
+  .trn-entrepreneurs .cards-all-link {
+    display: flex;
+    justify-content: center;
+  }
+  .trn-entrepreneurs .cards-all-link a {
+    width: -moz-max-content;
+    width: max-content;
+  }
+  .trn-entrepreneurs .cards-wrapper {
+    position: relative;
+    margin-bottom: 128px;
+  }
+  .trn-entrepreneurs .cards-wrapper::before {
+    display: block;
+    content: url("../img/icon/potato.svg");
+    position: absolute;
+    top: -122px;
+    right: -187px;
+  }
+  .trn-entrepreneurs .cards-wrapper::after {
+    display: block;
+    content: url("../img/icon/potato.svg");
+    position: absolute;
+    top: 517px;
+    left: -128px;
+    z-index: -1;
+  }
+  .trn-entrepreneurs .experience-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 108px;
+    margin-bottom: 66px;
+  }
+  .trn-entrepreneurs .experience-item-info {
+    max-width: 485px;
+  }
+  .trn-entrepreneurs .experience-item-info p {
+    color: var(--Text-text-black, #414141);
+    font-family: "Noto Sans";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+  }
+  .trn-entrepreneurs .experience-item-info picture {
+    display: block;
+    margin-bottom: 44px;
+  }
+  .trn-entrepreneurs .experience-item-title {
+    color: var(--Text-heads-black, #222);
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 42px;
+    margin-bottom: 36px;
+  }
+  .trn-entrepreneurs .experience-item-picture {
+    position: relative;
+    width: 636px;
+    height: 448px;
+  }
+  .trn-entrepreneurs .experience-item-picture picture {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 24px;
+  }
+  .trn-entrepreneurs .experience-item-picture picture::after {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 24px;
+    border-radius: 24px;
+    background: #fff;
+    transform: rotate(-8deg);
+    z-index: -1;
+  }
+  .trn-entrepreneurs .experience-item-picture img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 24px;
+    overflow: hidden;
+  }
+  .trn-entrepreneurs .experience-wrapper {
+    position: relative;
+    margin-bottom: 100px;
+  }
+  .trn-entrepreneurs .experience-wrapper::before {
+    display: block;
+    content: url("/img/entrepreneurs/snake.svg");
+    position: absolute;
+    bottom: -400px;
+    right: 250px;
+    z-index: -1;
+  }
+  .trn-entrepreneurs .experience-wrapper::after {
+    display: block;
+    content: url("/img/icon/potato.svg");
+    position: absolute;
+    bottom: -200px;
+    left: -128px;
+    transform: rotate(-87deg);
+    z-index: -1;
+  }
+  .trn-entrepreneurs .guides-wrapper .section-title .swiper-buttons {
+    display: none;
+  }
+  .trn-entrepreneurs div.guides div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+  }
+  .trn-entrepreneurs div.guides div .guide {
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 24px;
+    background: #fff;
+  }
+  .trn-entrepreneurs div.guides div .guide picture {
+    position: relative;
+    width: 100%;
+    border-radius: 24px;
+    background: var(--Fields-primary-light-grey, #d9d9d9);
+    overflow: hidden;
+    max-height: 282px;
+  }
+  .trn-entrepreneurs div.guides div .guide picture img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .trn-entrepreneurs div.guides div .guide a {
+    width: 100%;
+  }
+  .trn-entrepreneurs div.guides div .guide-title {
+    color: var(--Text-heads-black, #222);
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32px;
+    padding: 0 8px;
+  }
+  .trn-entrepreneurs div.guides div .guides {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+  }
+  .trn-entrepreneurs div.guides div .guides-title {
+    margin-bottom: 56px;
+  }
+  .trn-entrepreneurs div.guides div .guides-wrapper {
+    position: relative;
+    margin-bottom: 128px;
+  }
+  .trn-entrepreneurs div.guides div .guides-wrapper::after {
+    display: block;
+    content: url("/img/icon/potato.svg");
+    position: absolute;
+    bottom: -300px;
+    right: -150px;
+    transform: rotate(-87deg);
+    z-index: -1;
+  }
+  .trn-entrepreneurs .consult {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 24px;
+    margin-bottom: 36px;
+  }
+  .trn-entrepreneurs .consult-wrapper {
+    position: relative;
+  }
+  .trn-entrepreneurs .consult-wrapper::after {
+    display: block;
+    content: url("/img/icon/minisnake.svg");
+    position: absolute;
+    bottom: -250px;
+    right: 0;
+    z-index: -1;
+  }
+  .trn-entrepreneurs .consult-wrapper .section-title {
+    display: flex;
+    gap: 134px;
+  }
+  .trn-entrepreneurs .consult-wrapper .section-title h2 {
+    position: relative;
+    max-width: 416px;
+    padding-bottom: 10px;
+  }
+  .trn-entrepreneurs .consult-wrapper .section-title h2::after {
+    position: absolute;
+    content: " ";
+    top: calc(100% + 12px);
+    left: 0;
+    width: 340px;
+    height: 16px;
+    background-image: url(../img/dog-friendly/health-and-care/two-line.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .trn-entrepreneurs .consult-wrapper .section-title-descr {
+    max-width: 360px;
+    color: var(--Text-text-black, #414141);
+    font-family: "Noto Sans";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-right: auto;
+  }
+  .trn-entrepreneurs .consult-item {
+    position: relative;
+    width: calc((100% - 48px) / 3);
+    height: 322px;
+    border-radius: 24px;
+    background-color: #fff;
+  }
+  .trn-entrepreneurs .consult-item::before {
+    position: absolute;
+    content: "";
+    background-repeat: no-repeat;
+    bottom: 0;
+    right: 0;
+    width: 398px;
+    height: 183px;
+    z-index: 0;
+    background-image: url("/img/entrepreneurs/dog-2-elem.png");
+  }
+  .trn-entrepreneurs .consult-item-title {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    max-width: 250px;
+    color: var(--Text-heads-black, #222);
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 42px;
+  }
+  .trn-entrepreneurs .consult-item picture {
+    position: absolute;
+    width: 50%;
+    height: 65%;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    z-index: 1;
+    border-bottom-right-radius: 24px;
+  }
+  .trn-entrepreneurs .consult-item picture img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+    -o-object-position: right bottom;
+       object-position: right bottom;
+  }
+  .trn-entrepreneurs .consult-item.accent {
+    background: var(--Bg-primary-lime, #d7db2d);
+  }
+  .trn-entrepreneurs .consult-item.accent::before {
+    background-image: url("/img/entrepreneurs/dog-3-elem.png");
+  }
+  .trn-entrepreneurs .consult-item.accent.black {
+    background: var(--Bg-primary-black, #222);
+  }
+  .trn-entrepreneurs .consult-item.accent.black::before {
+    background-image: url("/img/entrepreneurs/dog-1-elem.png");
+  }
+  .trn-entrepreneurs .consult-item.accent.black .consult-item-title {
+    color: #fff;
+  }
+  .trn-entrepreneurs .consult-all-link {
+    display: flex;
+    justify-content: center;
+  }
+  .trn-entrepreneurs .consult-all-link a {
+    width: -moz-max-content;
+    width: max-content;
+  }
+  footer .form {
+    background: var(--Bg-primary-brown, #bc781e);
+  }
+  footer .form::after {
+    display: block;
+    content: url("/img/icon/potato.svg");
+    position: absolute;
+    bottom: -165px;
+    left: 115px;
+    transform: rotate(-87deg);
+    z-index: -1;
+  }
+  footer .form .desc .title,
+  footer .form .desc .phone span,
+  footer .form .desc .phone a {
+    color: #fff;
+  }
+}
+@media (min-width: 761px) and (max-width: 1295px) {
+  .trn-entrepreneurs .content {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .trn-entrepreneurs .title-wrapper {
+    max-width: 740px;
+    margin-bottom: 56px;
+  }
+  .trn-entrepreneurs .title-wrapper h1 {
+    font-size: 38px;
+    line-height: 48px;
+  }
+  .trn-entrepreneurs .section-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 56px;
+  }
+  .trn-entrepreneurs .section-title h2.h3 {
+    font-family: Mulish;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 40px;
+    letter-spacing: 0px;
+  }
+  .trn-entrepreneurs .swiper-button {
+    position: static;
+    display: flex;
+    width: 32px;
+    height: 32px;
+    padding: 8px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 20px;
+    background: #e7e7e7;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+  }
+  .trn-entrepreneurs .swiper-button::after {
+    display: flex;
+    content: "";
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .trn-entrepreneurs .swiper-button-prev::after {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="18" viewBox="0 0 10 18" fill="none"><path d="M9 17L1 9L9 1" stroke="%236F6F6F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+  }
+  .trn-entrepreneurs .swiper-button-next::after {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="18" viewBox="0 0 10 18" fill="none"><path d="M1 17L9 9L1 1" stroke="%236F6F6F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+  }
+  .trn-entrepreneurs .swiper-button:hover {
+    background: #fff;
+  }
+  .trn-entrepreneurs .swiper-buttons {
+    position: relative;
+    display: flex;
+    gap: 10px;
+  }
+  .trn-entrepreneurs .card {
+    position: relative;
+    border-radius: 24px;
+    overflow: hidden;
+  }
+  .trn-entrepreneurs .card-info {
+    position: absolute;
+    left: 16px;
+    bottom: 16px;
+    right: 16px;
+    top: 174px;
+    display: flex;
+    padding: 30px 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 24px;
+    background: rgba(67, 67, 67, 0.1);
+    box-shadow: 0px 4px 53.1px 0px rgba(255, 255, 255, 0.25) inset;
+    -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px);
+    color: var(--Text-heads-white, #fff);
+    font-family: "Noto Sans";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+  }
+  .trn-entrepreneurs .card-info h5 {
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 30px;
+  }
+  .trn-entrepreneurs .card-info p {
+    font-family: Noto Sans;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .trn-entrepreneurs .card picture img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .trn-entrepreneurs .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    margin-bottom: 36px;
+  }
+  .trn-entrepreneurs .cards-all-link {
+    display: flex;
+    justify-content: center;
+  }
+  .trn-entrepreneurs .cards-all-link a {
+    width: calc(100vw - 60px);
+  }
+  .trn-entrepreneurs .cards-wrapper {
+    position: relative;
+    margin-bottom: 128px;
+  }
+  .trn-entrepreneurs .experience-item {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    gap: 77px;
+  }
+  .trn-entrepreneurs .experience-item-info {
+    max-width: 485px;
+  }
+  .trn-entrepreneurs .experience-item-info p {
+    color: var(--Text-text-black, #414141);
+    font-family: "Noto Sans";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+  }
+  .trn-entrepreneurs .experience-item-info picture {
+    display: block;
+    margin-bottom: 44px;
+  }
+  .trn-entrepreneurs .experience-item-title {
+    color: var(--Text-heads-black, #222);
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 42px;
+    margin-bottom: 36px;
+  }
+  .trn-entrepreneurs .experience-item-picture {
+    position: relative;
+    width: 636px;
+    height: 448px;
+    grid-row: 1;
+  }
+  .trn-entrepreneurs .experience-item-picture picture {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 24px;
+  }
+  .trn-entrepreneurs .experience-item-picture picture::after {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 24px;
+    border-radius: 24px;
+    background: #fff;
+    transform: rotate(-8deg);
+    z-index: -1;
+  }
+  .trn-entrepreneurs .experience-item-picture img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 24px;
+    overflow: hidden;
+  }
+  .trn-entrepreneurs .experience-item p {
+    font-family: Noto Sans;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .trn-entrepreneurs .experience-wrapper {
+    position: relative;
+    margin-bottom: 100px;
+  }
+  .trn-entrepreneurs .experience-wrapper::before {
+    display: block;
+    content: url("/img/entrepreneurs/snake.svg");
+    position: absolute;
+    bottom: -400px;
+    right: 250px;
+    z-index: -1;
+  }
+  .trn-entrepreneurs .experience-wrapper::after {
+    display: block;
+    content: url("/img/icon/potato.svg");
+    position: absolute;
+    bottom: -200px;
+    left: -128px;
+    transform: rotate(-87deg);
+    z-index: -1;
+  }
+  .trn-entrepreneurs .guide {
+    display: flex;
+    box-sizing: border-box;
+    padding: 24px;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 24px;
+    background: #fff;
+    height: 392px;
+  }
+  .trn-entrepreneurs .guide picture {
+    position: relative;
+    width: 100%;
+    border-radius: 24px;
+    background: var(--Fields-primary-light-grey, #d9d9d9);
+    overflow: hidden;
+    max-height: 282px;
+  }
+  .trn-entrepreneurs .guide picture img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .trn-entrepreneurs .guide a {
+    width: 100%;
+  }
+  .trn-entrepreneurs .guide-title {
+    color: var(--Text-heads-black, #222);
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32px;
+    padding: 0 8px;
+  }
+  .trn-entrepreneurs .guides {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+  }
+  .trn-entrepreneurs .guides-title {
+    margin-bottom: 56px;
+  }
+  .trn-entrepreneurs .guides-wrapper {
+    position: relative;
+    margin-bottom: 128px;
+  }
+  .trn-entrepreneurs .consult {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 36px;
+  }
+  .trn-entrepreneurs .consult-wrapper {
+    position: relative;
+    margin-bottom: 96px;
+  }
+  .trn-entrepreneurs .consult-wrapper::after {
+    display: block;
+    content: url("/img/icon/minisnake.svg");
+    position: absolute;
+    bottom: -250px;
+    right: 0;
+    z-index: -1;
+  }
+  .trn-entrepreneurs .consult-wrapper .section-title {
+    display: grid;
+    gap: 56px;
+  }
+  .trn-entrepreneurs .consult-wrapper .section-title h2 {
+    position: relative;
+    padding-bottom: 10px;
+    font-size: 38px;
+    line-height: 40px;
+  }
+  .trn-entrepreneurs .consult-wrapper .section-title h2::after {
+    position: absolute;
+    content: " ";
+    top: calc(100% + 12px);
+    left: 0;
+    width: 340px;
+    height: 16px;
+    background-image: url(../img/dog-friendly/health-and-care/two-line.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .trn-entrepreneurs .consult-wrapper .section-title-descr {
+    color: var(--Text-text-black, #414141);
+    font-family: "Noto Sans";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    margin-right: auto;
+  }
+  .trn-entrepreneurs .consult-item {
+    position: relative;
+    width: 100%;
+    height: 322px;
+    border-radius: 24px;
+    background-color: #fff;
+  }
+  .trn-entrepreneurs .consult-item::before {
+    position: absolute;
+    content: "";
+    background-repeat: no-repeat;
+    bottom: 0;
+    right: 0;
+    width: 398px;
+    height: 183px;
+    z-index: 0;
+    background-image: url("/img/entrepreneurs/dog-2-elem.png");
+  }
+  .trn-entrepreneurs .consult-item-title {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    max-width: 250px;
+    color: var(--Text-heads-black, #222);
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 42px;
+  }
+  .trn-entrepreneurs .consult-item picture {
+    position: absolute;
+    width: 50%;
+    height: 65%;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    z-index: 1;
+    border-bottom-right-radius: 24px;
+  }
+  .trn-entrepreneurs .consult-item picture img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+    -o-object-position: right bottom;
+       object-position: right bottom;
+  }
+  .trn-entrepreneurs .consult-item.accent {
+    background: var(--Bg-primary-lime, #d7db2d);
+  }
+  .trn-entrepreneurs .consult-item.accent::before {
+    background-image: url("/img/entrepreneurs/dog-3-elem.png");
+  }
+  .trn-entrepreneurs .consult-item.accent.black {
+    background: var(--Bg-primary-black, #222);
+  }
+  .trn-entrepreneurs .consult-item.accent.black::before {
+    background-image: url("/img/entrepreneurs/dog-1-elem.png");
+  }
+  .trn-entrepreneurs .consult-item.accent.black .consult-item-title {
+    color: #fff;
+  }
+  .trn-entrepreneurs .consult-all-link {
+    display: flex;
+    justify-content: center;
+  }
+  .trn-entrepreneurs .consult-all-link a {
+    width: 100%;
+  }
+  footer .form {
+    background: var(--Bg-primary-brown, #bc781e);
+  }
+  footer .form .desc img {
+    top: -100px;
+  }
+  footer .form::after {
+    display: block;
+    content: url("/img/icon/potato.svg");
+    position: absolute;
+    bottom: -165px;
+    left: 115px;
+    transform: rotate(-87deg);
+    z-index: -1;
+  }
+  footer .form .desc .title,
+  footer .form .desc .phone span,
+  footer .form .desc .phone a {
+    color: #fff;
+  }
+}
+@media (min-width: 390px) and (max-width: 760px) {
+  .trn-entrepreneurs .content {
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-bottom: 64px;
+  }
+  .trn-entrepreneurs .title-wrapper {
+    max-width: 740px;
+    margin-bottom: 24px;
+  }
+  .trn-entrepreneurs .title-wrapper h1 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .trn-entrepreneurs .section-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+  }
+  .trn-entrepreneurs .section-title h2.h3 {
+    font-family: Mulish;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0px;
+  }
+  .trn-entrepreneurs .swiper-button {
+    position: static;
+    display: flex;
+    width: 36px;
+    height: 36px;
+    padding: 6px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 20px;
+    background: #e7e7e7;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+  }
+  .trn-entrepreneurs .swiper-button::after {
+    display: flex;
+    content: "";
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .trn-entrepreneurs .swiper-button-prev::after {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="18" viewBox="0 0 10 18" fill="none"><path d="M9 17L1 9L9 1" stroke="%236F6F6F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+  }
+  .trn-entrepreneurs .swiper-button-next::after {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="18" viewBox="0 0 10 18" fill="none"><path d="M1 17L9 9L1 1" stroke="%236F6F6F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+  }
+  .trn-entrepreneurs .swiper-buttons {
+    position: relative;
+    display: flex;
+    gap: 10px;
+  }
+  .trn-entrepreneurs .card {
+    position: relative;
+    border-radius: 24px;
+    overflow: hidden;
+  }
+  .trn-entrepreneurs .card-info {
+    position: absolute;
+    left: 16px;
+    bottom: 16px;
+    right: 16px;
+    top: 171px;
+    display: flex;
+    padding: 12px 16px 0;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 8px;
+    border-radius: 24px;
+    background: rgba(67, 67, 67, 0.1);
+    box-shadow: 0px 4px 53.1px 0px rgba(255, 255, 255, 0.25) inset;
+    -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px);
+    color: var(--Text-heads-white, #fff);
+    font-family: "Noto Sans";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+  }
+  .trn-entrepreneurs .card-info h5 {
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 30px;
+  }
+  .trn-entrepreneurs .card-info p {
+    font-family: Noto Sans;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .trn-entrepreneurs .card picture img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .trn-entrepreneurs .cards {
+    display: grid;
+    gap: 12px;
+    margin-bottom: 36px;
+  }
+  .trn-entrepreneurs .cards-all-link {
+    display: flex;
+    justify-content: center;
+  }
+  .trn-entrepreneurs .cards-all-link a {
+    width: calc(100vw - 60px);
+  }
+  .trn-entrepreneurs .cards-wrapper {
+    position: relative;
+    margin-bottom: 128px;
+  }
+  .trn-entrepreneurs .experience-item {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    gap: 10px;
+  }
+  .trn-entrepreneurs .experience-item-info {
+    max-width: 485px;
+  }
+  .trn-entrepreneurs .experience-item-info p {
+    color: var(--Text-text-black, #414141);
+    font-family: "Noto Sans";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+  }
+  .trn-entrepreneurs .experience-item-info picture {
+    display: block;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  .trn-entrepreneurs .experience-item-info picture img {
+    width: 214px;
+  }
+  .trn-entrepreneurs .experience-item-title {
+    color: var(--Text-heads-black, #222);
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 30px;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  .trn-entrepreneurs .experience-item-picture {
+    position: relative;
+    width: 100%;
+    grid-row: 1;
+  }
+  .trn-entrepreneurs .experience-item-picture picture {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 24px;
+  }
+  .trn-entrepreneurs .experience-item-picture picture::after {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 24px;
+    border-radius: 24px;
+    background: #fff;
+    transform: rotate(-8deg);
+    z-index: -1;
+  }
+  .trn-entrepreneurs .experience-item-picture img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 24px;
+    overflow: hidden;
+  }
+  .trn-entrepreneurs .experience-item p {
+    font-family: Noto Sans;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .trn-entrepreneurs .experience-wrapper {
+    position: relative;
+    margin-bottom: 100px;
+  }
+  .trn-entrepreneurs .experience-wrapper::before {
+    display: block;
+    content: url("../img/entrepreneurs/snake.svg");
+    position: absolute;
+    bottom: -400px;
+    right: 250px;
+    z-index: -1;
+  }
+  .trn-entrepreneurs .experience-wrapper::after {
+    display: block;
+    content: url("../img/icon/potato.svg");
+    position: absolute;
+    bottom: -200px;
+    left: -128px;
+    transform: rotate(-87deg);
+    z-index: -1;
+  }
+  .trn-entrepreneurs .guide {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 24px;
+    background: #fff;
+    height: 322px;
+  }
+  .trn-entrepreneurs .guide picture {
+    position: relative;
+    width: 100%;
+    border-radius: 24px;
+    background: var(--Fields-primary-light-grey, #d9d9d9);
+    overflow: hidden;
+    max-height: 282px;
+  }
+  .trn-entrepreneurs .guide picture img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .trn-entrepreneurs .guide a {
+    width: 100%;
+  }
+  .trn-entrepreneurs .guide-title {
+    color: var(--Text-heads-black, #222);
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32px;
+    padding: 0 8px;
+  }
+  .trn-entrepreneurs .guides {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+  }
+  .trn-entrepreneurs .guides-title {
+    margin-bottom: 56px;
+  }
+  .trn-entrepreneurs .guides-wrapper {
+    position: relative;
+    margin-bottom: 128px;
+  }
+  .trn-entrepreneurs .consult {
+    display: grid;
+    gap: 20px;
+    margin-bottom: 36px;
+  }
+  .trn-entrepreneurs .consult-wrapper {
+    position: relative;
+  }
+  .trn-entrepreneurs .consult-wrapper::after {
+    display: block;
+    content: url("../img/icon/minisnake.svg");
+    position: absolute;
+    bottom: -250px;
+    right: 0;
+    z-index: -1;
+  }
+  .trn-entrepreneurs .consult-wrapper .section-title {
+    display: grid;
+    gap: 56px;
+  }
+  .trn-entrepreneurs .consult-wrapper .section-title h2 {
+    position: relative;
+    padding-bottom: 10px;
+    font-size: 32px;
+    line-height: 30px;
+  }
+  .trn-entrepreneurs .consult-wrapper .section-title h2::after {
+    position: absolute;
+    content: " ";
+    top: calc(100% + 12px);
+    left: 0;
+    width: 340px;
+    height: 16px;
+    background-image: url("../img/dog-friendly/health-and-care/two-line.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .trn-entrepreneurs .consult-wrapper .section-title-descr {
+    color: var(--Text-text-black, #414141);
+    font-family: "Noto Sans";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-right: auto;
+  }
+  .trn-entrepreneurs .consult-item {
+    position: relative;
+    width: 100%;
+    height: 322px;
+    border-radius: 24px;
+    background-color: #fff;
+  }
+  .trn-entrepreneurs .consult-item::before {
+    position: absolute;
+    content: "";
+    background-repeat: no-repeat;
+    bottom: 0;
+    right: 0;
+    width: 398px;
+    height: 183px;
+    z-index: 0;
+    background-image: url("../img/entrepreneurs/dog-2-elem.png");
+  }
+  .trn-entrepreneurs .consult-item-title {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    max-width: 250px;
+    color: var(--Text-heads-black, #222);
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 42px;
+  }
+  .trn-entrepreneurs .consult-item picture {
+    position: absolute;
+    width: 50%;
+    height: 65%;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    z-index: 1;
+    border-bottom-right-radius: 24px;
+  }
+  .trn-entrepreneurs .consult-item picture img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+    -o-object-position: right bottom;
+       object-position: right bottom;
+  }
+  .trn-entrepreneurs .consult-item.accent {
+    background: var(--Bg-primary-lime, #d7db2d);
+  }
+  .trn-entrepreneurs .consult-item.accent::before {
+    background-image: url("../img/entrepreneurs/dog-3-elem.png");
+  }
+  .trn-entrepreneurs .consult-item.accent.black {
+    background: var(--Bg-primary-black, #222);
+  }
+  .trn-entrepreneurs .consult-item.accent.black::before {
+    background-image: url("../img/entrepreneurs/dog-1-elem.png");
+  }
+  .trn-entrepreneurs .consult-item.accent.black .consult-item-title {
+    color: #fff;
+  }
+  .trn-entrepreneurs .consult-all-link {
+    display: flex;
+    justify-content: center;
+  }
+  .trn-entrepreneurs .consult-all-link a {
+    width: 100%;
+  }
+  footer .form {
+    background: var(--Bg-primary-brown, #bc781e);
+  }
+  footer .form .desc img {
+    top: -100px;
+  }
+  footer .form::after {
+    display: block;
+    content: url("../img/icon/potato.svg");
+    position: absolute;
+    bottom: -165px;
+    left: 115px;
+    transform: rotate(-87deg);
+    z-index: -1;
+  }
+  footer .form .desc .title,
+  footer .form .desc .phone span,
+  footer .form .desc .phone a {
+    color: #fff;
+  }
+}/*# sourceMappingURL=entrepreneurs.css.map */
