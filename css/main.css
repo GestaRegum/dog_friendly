@@ -514,7 +514,7 @@
     padding-top: 190px;
     padding-bottom: 505px;
   }
-  .content .second_block .description {
+  .content .second_block .column:first-child .description {
     color: #000;
     font-family: "Noto Sans";
     font-size: 14px;

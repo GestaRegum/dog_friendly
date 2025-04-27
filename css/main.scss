@@ -382,13 +382,15 @@
     .second_block {
       padding-top: 190px;
       padding-bottom: 505px;
-      .description {
-        color: #000;
-        font-family: "Noto Sans";
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 20px;
-        margin-bottom: 44px;
+      .column:first-child {
+        .description {
+          color: #000;
+          font-family: "Noto Sans";
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 20px;
+          margin-bottom: 44px;
+        }
       }
     }
 
