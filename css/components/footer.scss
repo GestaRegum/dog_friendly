@@ -225,7 +225,7 @@ footer {
 }
 
 // Desktop стили
-@media (min-width: ($maxWidth +1)) {
+@media (min-width: ($maxWidth + 1)) {
   footer {
     .form {
       width: calc(100% - 224px);
