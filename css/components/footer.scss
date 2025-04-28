@@ -4,7 +4,7 @@
 footer {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: stretch;
 
   // Общие стили для .form
   .form {
@@ -402,6 +402,7 @@ footer {
 // Mobile стили
 @media (min-width: $mobWidth) and (max-width: $lapTopWidth) {
   footer {
+    padding: 0 30px;
     gap: 64px;
 
     .form {
