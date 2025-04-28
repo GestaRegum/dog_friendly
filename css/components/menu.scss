@@ -350,6 +350,7 @@ header {
         }
 
         &.active {
+          display: block;
           > a .arrow {
             transform: rotate(90deg);
           }

@@ -493,6 +493,9 @@ header a.btn_contact {
   .popup-nav > li.popup-first-lvl > a .arrow {
     transition: transform 0.3s ease;
   }
+  .popup-nav > li.popup-first-lvl.active {
+    display: block;
+  }
   .popup-nav > li.popup-first-lvl.active > a .arrow {
     transform: rotate(90deg);
   }
@@ -1135,6 +1138,9 @@ footer .footer .container .column:last-child .soc_media a {
   }
 }
 @media (min-width: 761px) and (max-width: 1295px) {
+  footer {
+    align-items: center;
+  }
   footer .form {
     width: calc(100% - 140px);
     padding: 40px;
@@ -1197,7 +1203,6 @@ footer .footer .container .column:last-child .soc_media a {
 }
 @media (min-width: 390px) and (max-width: 760px) {
   footer {
-    padding: 0 30px;
     gap: 64px;
   }
   footer .form {

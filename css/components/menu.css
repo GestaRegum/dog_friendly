@@ -284,6 +284,9 @@ header a.btn_contact {
   .popup-nav > li.popup-first-lvl > a .arrow {
     transition: transform 0.3s ease;
   }
+  .popup-nav > li.popup-first-lvl.active {
+    display: block;
+  }
   .popup-nav > li.popup-first-lvl.active > a .arrow {
     transform: rotate(90deg);
   }

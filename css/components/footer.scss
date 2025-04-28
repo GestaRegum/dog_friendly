@@ -319,6 +319,7 @@ footer {
 // Tablet стили
 @media (min-width: ($lapTopWidth + 1)) and (max-width: $maxWidth) {
   footer {
+    align-items: center;
     .form {
       width: calc(100% - 140px);
       padding: 40px;
@@ -402,7 +403,6 @@ footer {
 // Mobile стили
 @media (min-width: $mobWidth) and (max-width: $lapTopWidth) {
   footer {
-    padding: 0 30px;
     gap: 64px;
 
     .form {
