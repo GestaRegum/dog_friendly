@@ -21,7 +21,7 @@
           <a href="./map.html">Карта Дог Френдли мест</a>
         </li>
         <li class="first_lvl">
-          <a href="/about.html">О Проекте </a>
+          <a href="./about.html">О Проекте </a>
           <ul class="sub_menu">
             <li class="sub_item">
               <a href="./about.html"> О проекте </a>
@@ -89,7 +89,7 @@
 
         <ul class="popup-nav">
           <li>
-            <a class="mobile" href="/map.html">Карта Дог Френдли мест</a>
+            <a class="mobile" href="./map.html">Карта Дог Френдли мест</a>
           </li>
           <li class="popup-first-lvl active">
             <a href="./life_with_a_dog.html">Жизнь с собакой </a>
@@ -120,7 +120,7 @@
             </ul>
           </li>
           <li class="popup-first-lvl active">
-            <a href="/about.html">О Проекте </a>
+            <a href="./about.html">О Проекте </a>
             <ul class="popup-sub-menu">
               <li>
                 <a href="./about.html">О проекте</a>
@@ -140,10 +140,10 @@
             <a href="#">Прочее</a>
             <ul class="popup-sub-menu">
               <li>
-                <a href="/map.html">Карта Дог Френдли мест</a>
+                <a href="./map.html">Карта Дог Френдли мест</a>
               </li>
               <li>
-                <a href="/news.html">Новости</a>
+                <a href="./news.html">Новости</a>
               </li>
             </ul>
           </li>
@@ -431,16 +431,16 @@
           <div class="column menu">
             <ul>
               <li>
-                <a href="/map.html"> Карта Дог-френдли мест </a>
+                <a href="./map.html"> Карта Дог-френдли мест </a>
               </li>
               <li>
-                <a href="/about.html"> О проекте </a>
+                <a href="./about.html"> О проекте </a>
               </li>
               <li>
-                <a href="/life_with_a_dog.html"> Жизнь с собакой </a>
+                <a href="./life_with_a_dog.html"> Жизнь с собакой </a>
               </li>
               <li>
-                <a href="/news.html"> Новости </a>
+                <a href="./news.html"> Новости </a>
               </li>
               <li>
                 <a href="/"> Контакты </a>
@@ -472,64 +472,6 @@
 
     <script src="./js/components/popup.js"></script>
     <script src="./plugins/swiper/swiper-bundle.min.js"></script>
-    <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        let materialsSwiper = null;
-        const nextButton = document.getElementById("btn-next-news");
-        const prevButton = document.getElementById("btn-prev-news");
-
-        function initMaterialsSwiper() {
-          const isMobile = window.matchMedia("(max-width: 1296px)").matches;
-          const swiperContainer = document.querySelector(".list-swiper");
-          const listContainer = swiperContainer.querySelector(".list");
-
-          if (isMobile && !materialsSwiper) {
-            swiperContainer.classList.add("swiper-container");
-            listContainer.classList.add("swiper-wrapper");
-
-            // Преобразуем только карточки новостей в слайды
-            const newsCards = Array.from(
-              listContainer.querySelectorAll(".card_news")
-            );
-            newsCards.forEach((card) => {
-              card.classList.add("swiper-slide");
-            });
-
-            // Инициализируем слайдер с дополнительными параметрами
-            materialsSwiper = new Swiper(swiperContainer, {
-              slidesPerView: "auto", // Автоматическое определение количества слайдов
-              watchSlidesProgress: true,
-              observer: true,
-              observeParents: true,
-
-              navigation: {
-                nextEl: nextButton,
-                prevEl: prevButton,
-              },
-            });
-
-            // Обновляем слайдер после инициализации
-            setTimeout(() => materialsSwiper.update(), 100);
-          } else if (!isMobile && materialsSwiper) {
-            materialsSwiper.destroy(true, true);
-            materialsSwiper = null;
-            swiperContainer.classList.remove("swiper-container");
-            listContainer.classList.remove("swiper-wrapper");
-            listContainer.querySelectorAll(".card_news").forEach((card) => {
-              card.classList.remove("swiper-slide");
-            });
-          }
-        }
-        // Инициализируем при загрузке
-        window.addEventListener("load", initMaterialsSwiper);
-
-        // Оптимизация ресайза
-        let resizeTimeout;
-        window.addEventListener("resize", () => {
-          clearTimeout(resizeTimeout);
-          resizeTimeout = setTimeout(initMaterialsSwiper, 100);
-        });
-      });
-    </script>
+    <script src="./js/components/news-swiper.js"></script>
   </body>
 </html>

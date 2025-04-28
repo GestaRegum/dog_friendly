@@ -17,10 +17,10 @@
       </a>
       <ul class="nav">
         <li>
-          <a href="/map.html">Карта Дог Френдли мест</a>
+          <a href="./map.html">Карта Дог Френдли мест</a>
         </li>
         <li class="first_lvl">
-          <a href="/about.html">О Проекте </a>
+          <a href="./about.html">О Проекте </a>
           <ul class="sub_menu">
             <li class="sub_item">
               <a href="./about.html"> О проекте </a>
@@ -67,7 +67,7 @@
           </ul>
         </li>
         <li>
-          <a href="/news.html">Новости</a>
+          <a href="./news.html">Новости</a>
         </li>
       </ul>
       <!-- Кнопка для открытия меню (бургер) -->
@@ -88,7 +88,7 @@
 
         <ul class="popup-nav">
           <li>
-            <a class="mobile" href="/map.html">Карта Дог Френдли мест</a>
+            <a class="mobile" href="./map.html">Карта Дог Френдли мест</a>
           </li>
           <li class="popup-first-lvl active">
             <a href="./life_with_a_dog.html">Жизнь с собакой </a>
@@ -119,7 +119,7 @@
             </ul>
           </li>
           <li class="popup-first-lvl active">
-            <a href="/about.html">О Проекте </a>
+            <a href="./about.html">О Проекте </a>
             <ul class="popup-sub-menu">
               <li>
                 <a href="./about.html">О проекте</a>
@@ -139,10 +139,10 @@
             <a href="#">Прочее</a>
             <ul class="popup-sub-menu">
               <li>
-                <a href="/map.html">Карта Дог Френдли мест</a>
+                <a href="./map.html">Карта Дог Френдли мест</a>
               </li>
               <li>
-                <a href="/news.html">Новости</a>
+                <a href="./news.html">Новости</a>
               </li>
             </ul>
           </li>
@@ -306,6 +306,7 @@
         </section>
       </div>
     </main>
+
     <footer>
       <div class="form">
         <div class="desc">
@@ -355,16 +356,16 @@
           <div class="column menu">
             <ul>
               <li>
-                <a href="/map.html"> Карта Дог-френдли мест </a>
+                <a href="./map.html"> Карта Дог-френдли мест </a>
               </li>
               <li>
-                <a href="/about.html"> О проекте </a>
+                <a href="./about.html"> О проекте </a>
               </li>
               <li>
-                <a href="/life_with_a_dog.html"> Жизнь с собакой </a>
+                <a href="./life_with_a_dog.html"> Жизнь с собакой </a>
               </li>
               <li>
-                <a href="/news.html"> Новости </a>
+                <a href="./news.html"> Новости </a>
               </li>
               <li>
                 <a href="/"> Контакты </a>
@@ -396,52 +397,6 @@
 
     <script src="./js/components/popup.js"></script>
     <script src="./plugins/swiper/swiper-bundle.min.js"></script>
-    <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        let materialsSwiper = null;
-
-        function initMaterialsSwiper() {
-          const isMobile = window.matchMedia("(max-width: 768px)").matches;
-          const swiperEl = document.querySelector(".materials");
-
-          if (isMobile && !materialsSwiper) {
-            swiperEl.classList.add("swiper");
-            const innerDiv = swiperEl.querySelector("div");
-            innerDiv.classList.add("swiper-wrapper");
-
-            const articles = innerDiv.querySelectorAll("article");
-            articles.forEach((article) => {
-              article.classList.add("swiper-slide");
-            });
-
-            materialsSwiper = new Swiper(swiperEl, {
-              slidesPerView: "auto",
-              spaceBetween: 16,
-              freeMode: true,
-              navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-              },
-            });
-          } else if (!isMobile && materialsSwiper) {
-            materialsSwiper.destroy(true, true);
-            materialsSwiper = null;
-
-            swiperEl.classList.remove("swiper");
-            const innerDiv = swiperEl.querySelector("div");
-            innerDiv.classList.remove("swiper-wrapper");
-
-            const articles = innerDiv.querySelectorAll("article");
-            articles.forEach((article) => {
-              article.classList.remove("swiper-slide");
-            });
-          }
-        }
-
-        initMaterialsSwiper();
-
-        window.addEventListener("resize", initMaterialsSwiper);
-      });
-    </script>
+    <script src="./js/components/schools-teachers-swiper.js"></script>
   </body>
 </html>
