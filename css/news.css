@@ -182,6 +182,7 @@
     margin: 0 auto;
     display: flex;
     justify-content: center;
+    margin-bottom: 96px;
   }
   .content.news .pagination ul {
     display: flex;

@@ -49,13 +49,13 @@
   .trn-residents .material:nth-child(2)::before {
     position: absolute;
     content: "";
-    background-image: url("/img/residents/residents-img-2-elem.png");
+    background-image: url("../img/residents/residents-img-2-elem.png");
     width: 45px;
     height: 45px;
     top: 16px;
     left: 42%;
     transform: translateX(-50%);
-    z-index: 2;
+    z-index: 0;
   }
   .trn-residents .materials {
     position: relative;
@@ -67,7 +67,7 @@
   }
   .trn-residents .materials::before {
     display: block;
-    content: url("/img/icon/potato.svg");
+    content: url("../img/icon/potato.svg");
     position: absolute;
     bottom: -273px;
     right: 153px;
@@ -90,7 +90,7 @@
   }
   .trn-residents .announcement-wrapper::before {
     position: absolute;
-    content: url("/img/icon/biggestsnakeever.svg");
+    content: url("../img/icon/biggestsnakeever.svg");
     top: -650px;
     right: 350px;
     z-index: -1;
@@ -337,13 +337,13 @@
   .trn-residents .material:nth-child(2)::before {
     position: absolute;
     content: "";
-    background-image: url("/img/residents/residents-img-2-elem.png");
+    background-image: url("../img/residents/residents-img-2-elem.png");
     width: 45px;
     height: 45px;
     top: 16px;
     left: 42%;
     transform: translateX(-50%);
-    z-index: 2;
+    z-index: 0;
   }
   .trn-residents .materials {
     position: relative;
@@ -354,7 +354,7 @@
   }
   .trn-residents .materials::before {
     display: block;
-    content: url("/img/icon/potato.svg");
+    content: url("../img/icon/potato.svg");
     position: absolute;
     bottom: -273px;
     right: 153px;
@@ -377,7 +377,7 @@
   }
   .trn-residents .announcement-wrapper::before {
     position: absolute;
-    content: url("/img/icon/biggestsnakeever.svg");
+    content: url("../img/icon/biggestsnakeever.svg");
     top: -650px;
     right: 350px;
     z-index: -1;
@@ -624,13 +624,13 @@
   .trn-residents .material:nth-child(2)::before {
     position: absolute;
     content: "";
-    background-image: url("/img/residents/residents-img-2-elem.png");
+    background-image: url("../img/residents/residents-img-2-elem.png");
     width: 45px;
     height: 45px;
     top: 16px;
     left: 42%;
     transform: translateX(-50%);
-    z-index: 2;
+    z-index: 0;
   }
   .trn-residents .materials {
     position: relative;
@@ -641,7 +641,7 @@
   }
   .trn-residents .materials::before {
     display: block;
-    content: url("/img/icon/potato.svg");
+    content: url("../img/icon/potato.svg");
     position: absolute;
     bottom: -273px;
     right: 153px;
@@ -665,7 +665,7 @@
   }
   .trn-residents .announcement-wrapper::before {
     position: absolute;
-    content: url("/img/icon/biggestsnakeever.svg");
+    content: url("../img/icon/biggestsnakeever.svg");
     top: -650px;
     right: 350px;
     z-index: -1;
