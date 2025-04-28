@@ -2050,7 +2050,7 @@ input[type=checkbox].yellow-checkbox:checked::after {
 footer {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: stretch;
 }
 footer .form {
   max-width: 1216px;
@@ -2385,6 +2385,7 @@ footer .footer .container .column:last-child .soc_media a {
 }
 @media (min-width: 390px) and (max-width: 760px) {
   footer {
+    padding: 0 30px;
     gap: 64px;
   }
   footer .form {

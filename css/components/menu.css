@@ -54,7 +54,7 @@ header ul.nav li.first_lvl > a::before {
   right: -20px;
   width: 12px;
   height: 6px;
-  background-image: url(../../img/icon/menu-arr.svg);
+  background-image: url("./img/icon/menu-arr.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -157,7 +157,7 @@ header a.btn_contact {
   right: 0;
   width: 12px;
   height: 6px;
-  background-image: url("./img/icon/menu-arr.svg");
+  background-image: url("../../img/icon/menu-arr.svg");
   background-repeat: no-repeat;
   transform: translateY(-50%);
   transition: transform 0.3s ease;
