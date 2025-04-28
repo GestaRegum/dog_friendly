@@ -1,196 +1,4 @@
 @charset "UTF-8";
-@font-face {
-  font-family: Mulish;
-  font-weight: 200;
-  font-style: normal;
-  src: url(../fonts/Mulish/Mulish-ExtraLight.ttf);
-}
-@font-face {
-  font-family: Mulish;
-  font-weight: 200;
-  font-style: italic;
-  src: url(../fonts/Mulish/Mulish-ExtraLightItalic.ttf);
-}
-@font-face {
-  font-family: Mulish;
-  font-weight: 300;
-  font-style: normal;
-  src: url(../fonts/Mulish/Mulish-Light.ttf);
-}
-@font-face {
-  font-family: Mulish;
-  font-weight: 300;
-  font-style: italic;
-  src: url(../fonts/Mulish/Mulish-LightItalic.ttf);
-}
-@font-face {
-  font-family: Mulish;
-  font-weight: 400;
-  font-style: normal;
-  src: url(../fonts/Mulish/Mulish-Regular.ttf);
-}
-@font-face {
-  font-family: Mulish;
-  font-weight: 400;
-  font-style: italic;
-  src: url(../fonts/Mulish/Mulish-Italic.ttf);
-}
-@font-face {
-  font-family: Mulish;
-  font-weight: 500;
-  font-style: normal;
-  src: url(../fonts/Mulish/Mulish-Medium.ttf);
-}
-@font-face {
-  font-family: Mulish;
-  font-weight: 500;
-  font-style: italic;
-  src: url(../fonts/Mulish/Mulish-MediumItalic.ttf);
-}
-@font-face {
-  font-family: Mulish;
-  font-weight: 600;
-  font-style: normal;
-  src: url(../fonts/Mulish/Mulish-SemiBold.ttf);
-}
-@font-face {
-  font-family: Mulish;
-  font-weight: 600;
-  font-style: italic;
-  src: url(../fonts/Mulish/Mulish-SemiBoldItalic.ttf);
-}
-@font-face {
-  font-family: Mulish;
-  font-weight: 700;
-  font-style: normal;
-  src: url(../fonts/Mulish/Mulish-Bold.ttf);
-}
-@font-face {
-  font-family: Mulish;
-  font-weight: 700;
-  font-style: italic;
-  src: url(../fonts/Mulish/Mulish-BoldItalic.ttf);
-}
-@font-face {
-  font-family: Mulish;
-  font-weight: 800;
-  font-style: normal;
-  src: url(../fonts/Mulish/Mulish-ExtraBold.ttf);
-}
-@font-face {
-  font-family: Mulish;
-  font-weight: 800;
-  font-style: italic;
-  src: url(../fonts/Mulish/Mulish-ExtraBoldItalic.ttf);
-}
-@font-face {
-  font-family: Noto Sans;
-  font-weight: 100;
-  font-style: normal;
-  src: url(../fonts/Noto_Sans/NotoSans-Thin.ttf);
-}
-@font-face {
-  font-family: Noto Sans;
-  font-weight: 100;
-  font-style: italic;
-  src: url(../fonts/Noto_Sans/NotoSans-ThinItalic.ttf);
-}
-@font-face {
-  font-family: Noto Sans;
-  font-weight: 200;
-  font-style: normal;
-  src: url(../fonts/Noto_Sans/NotoSans-ExtraLight.ttf);
-}
-@font-face {
-  font-family: Noto Sans;
-  font-weight: 200;
-  font-style: italic;
-  src: url(../fonts/Noto_Sans/NotoSans-ExtraLightItalic.ttf);
-}
-@font-face {
-  font-family: Noto Sans;
-  font-weight: 300;
-  font-style: normal;
-  src: url(../fonts/Noto_Sans/NotoSans-Light.ttf);
-}
-@font-face {
-  font-family: Noto Sans;
-  font-weight: 300;
-  font-style: italic;
-  src: url(../fonts/Noto_Sans/NotoSans-LightItalic.ttf);
-}
-@font-face {
-  font-family: Noto Sans;
-  font-weight: 400;
-  font-style: normal;
-  src: url(../fonts/Noto_Sans/NotoSans-Regular.ttf);
-}
-@font-face {
-  font-family: Noto Sans;
-  font-weight: 400;
-  font-style: italic;
-  src: url(../fonts/Noto_Sans/NotoSans-Italic.ttf);
-}
-@font-face {
-  font-family: Noto Sans;
-  font-weight: 500;
-  font-style: normal;
-  src: url(../fonts/Noto_Sans/NotoSans-Medium.ttf);
-}
-@font-face {
-  font-family: Noto Sans;
-  font-weight: 500;
-  font-style: italic;
-  src: url(../fonts/Noto_Sans/NotoSans-MediumItalic.ttf);
-}
-@font-face {
-  font-family: Noto Sans;
-  font-weight: 600;
-  font-style: normal;
-  src: url(../fonts/Noto_Sans/NotoSans-SemiBold.ttf);
-}
-@font-face {
-  font-family: Noto Sans;
-  font-weight: 600;
-  font-style: italic;
-  src: url(../fonts/Noto_Sans/NotoSans-SemiBoldItalic.ttf);
-}
-@font-face {
-  font-family: Noto Sans;
-  font-weight: 700;
-  font-style: normal;
-  src: url(../fonts/Noto_Sans/NotoSans-Bold.ttf);
-}
-@font-face {
-  font-family: Noto Sans;
-  font-weight: 700;
-  font-style: italic;
-  src: url(../fonts/Noto_Sans/NotoSans-BoldItalic.ttf);
-}
-@font-face {
-  font-family: Noto Sans;
-  font-weight: 800;
-  font-style: normal;
-  src: url(../fonts/Noto_Sans/NotoSans-ExtraBold.ttf);
-}
-@font-face {
-  font-family: Noto Sans;
-  font-weight: 800;
-  font-style: italic;
-  src: url(../fonts/Noto_Sans/NotoSans-ExtraBoldItalic.ttf);
-}
-@font-face {
-  font-family: Noto Sans;
-  font-weight: 900;
-  font-style: normal;
-  src: url(../fonts/Noto_Sans/NotoSans-Black.ttf);
-}
-@font-face {
-  font-family: Noto Sans;
-  font-weight: 900;
-  font-style: italic;
-  src: url(../fonts/Noto_Sans/NotoSans-BlackItalic.ttf);
-}
 @media (min-width: 390px) and (max-width: 760px) {
   .content {
     max-width: var(--max-width);
@@ -1473,7 +1281,7 @@ input[type=checkbox].yellow-checkbox:checked::after {
   top: 0;
   left: 0;
   border: 1px solid var(--Bg-primary-lime, #d7db2d);
-  background-image: url(../img/icon/white-check.svg);
+  background-image: url("./img/icon/white-check.svg");
   background-color: var(--Bg-primary-lime, #d7db2d);
   background-position: 4px 5px;
   background-repeat: no-repeat;
@@ -1672,7 +1480,7 @@ footer .footer .container .column:last-child .soc_media a {
   footer .form {
     width: calc(100% - 224px);
     padding: 40px;
-    margin: 128px 72px;
+    margin: 0 auto 128px;
   }
 }
 @media (min-width: 1296px) and (min-width: 1440px) {
@@ -1756,6 +1564,9 @@ footer .footer .container .column:last-child .soc_media a {
   }
 }
 @media (min-width: 761px) and (max-width: 1295px) {
+  footer {
+    align-items: center;
+  }
   footer .form {
     width: calc(100% - 140px);
     padding: 40px;
@@ -1818,7 +1629,6 @@ footer .footer .container .column:last-child .soc_media a {
 }
 @media (min-width: 390px) and (max-width: 760px) {
   footer {
-    padding: 0 30px;
     gap: 64px;
   }
   footer .form {
@@ -1925,7 +1735,7 @@ input[type=checkbox].yellow-checkbox:checked::after {
   top: 0;
   left: 0;
   border: 1px solid var(--Bg-primary-lime, #d7db2d);
-  background-image: url(../img/icon/white-check.svg);
+  background-image: url("./img/icon/white-check.svg");
   background-color: var(--Bg-primary-lime, #d7db2d);
   background-position: 4px 5px;
   background-repeat: no-repeat;

@@ -1,5 +1,5 @@
 @import "./params";
-@import "./fonts";
+
 @media (min-width: ($lapTopWidth + 1)) and (max-width: $maxWidth) {
   .content {
     max-width: var(--max-width);
