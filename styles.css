@@ -855,7 +855,7 @@ input[type=checkbox].yellow-checkbox:checked::after {
   top: 0;
   left: 0;
   border: 1px solid var(--Bg-primary-lime, #d7db2d);
-  background-image: url(../img/icon/white-check.svg);
+  background-image: url("./img/icon/white-check.svg");
   background-color: var(--Bg-primary-lime, #d7db2d);
   background-position: 4px 5px;
   background-repeat: no-repeat;
@@ -1054,7 +1054,7 @@ footer .footer .container .column:last-child .soc_media a {
   footer .form {
     width: calc(100% - 224px);
     padding: 40px;
-    margin: 128px 72px;
+    margin: 0 auto 128px;
   }
 }
 @media (min-width: 1296px) and (min-width: 1440px) {

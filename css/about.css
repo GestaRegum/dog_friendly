@@ -1226,6 +1226,7 @@
     left: 36px;
     font-size: 24px;
     color: #fff;
+    margin-bottom: 20px;
   }
   .trn-about .first-screen .left p {
     color: var(--Text-text-black, #414141);

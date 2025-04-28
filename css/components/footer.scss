@@ -230,7 +230,7 @@ footer {
     .form {
       width: calc(100% - 224px);
       padding: 40px;
-      margin: 128px 72px;
+      margin: 0 auto 128px;
 
       @media (min-width: 1440px) {
         margin: 128px auto;
