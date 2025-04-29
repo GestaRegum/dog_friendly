@@ -144,11 +144,10 @@
     -o-object-fit: cover;
     object-fit: cover;
     border-radius: 24px;
-    overflow: visible;
   }
   .trn-schools-teachers .about-project::before {
     display: block;
-    content: url("/img/entrepreneurs/snake.svg");
+    content: url("../img/entrepreneurs/snake.svg");
     position: absolute;
     top: -250px;
     left: 50px;
@@ -217,7 +216,7 @@
   }
   .trn-schools-teachers .materials-wrapper .materials div .materials::before {
     display: block;
-    content: url("/img/icon/potato.svg");
+    content: url("../img/icon/potato.svg");
     position: absolute;
     top: -141px;
     right: -113px;
@@ -225,7 +224,7 @@
   }
   .trn-schools-teachers .materials-wrapper .materials div .materials::after {
     display: block;
-    content: url("/img/icon/minisnake.svg");
+    content: url("../img/icon/minisnake.svg");
     position: absolute;
     bottom: -400px;
     right: 50px;
@@ -241,7 +240,7 @@
   }
   footer .form::before {
     display: block;
-    content: url("/img/icon/potato.svg");
+    content: url("../img/icon/potato.svg");
     position: absolute;
     top: -186px;
     left: 40px;
@@ -249,7 +248,7 @@
   }
   footer .form::after {
     display: block;
-    content: url("/img/icon/minisnake.svg");
+    content: url("../img/icon/minisnake.svg");
     position: absolute;
     bottom: -600px;
     right: 150px;
@@ -421,14 +420,13 @@
     -o-object-fit: cover;
     object-fit: cover;
     border-radius: 24px;
-    overflow: visible;
   }
   .trn-schools-teachers .content .about-project::before {
     display: block;
-    content: url("/img/entrepreneurs/snake.svg");
+    content: url("../img/entrepreneurs/snake.svg");
     position: absolute;
     top: -250px;
-    left: 50px;
+    right: 0;
     z-index: -1;
   }
   .trn-schools-teachers .content .materials-wrapper {
@@ -448,12 +446,14 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+    justify-items: center;
   }
   .trn-schools-teachers .content .materials-wrapper div div .material {
     position: relative;
     display: flex;
     padding: 36px;
-    height: 308px;
+    height: 312px;
+    width: 377px;
     flex-direction: column;
     gap: 20px;
     border-radius: 24px;
@@ -502,7 +502,7 @@
   }
   .trn-schools-teachers .content .materials-wrapper div div .materials::before {
     display: block;
-    content: url("/img/icon/potato.svg");
+    content: url("../img/icon/potato.svg");
     position: absolute;
     top: -141px;
     right: -113px;
@@ -510,7 +510,7 @@
   }
   .trn-schools-teachers .content .materials-wrapper div div .materials::after {
     display: block;
-    content: url("/img/icon/minisnake.svg");
+    content: url("../img/icon/minisnake.svg");
     position: absolute;
     bottom: -400px;
     right: 50px;
@@ -526,7 +526,7 @@
   }
   footer .form::before {
     display: block;
-    content: url("/img/icon/potato.svg");
+    content: url("../img/icon/potato.svg");
     position: absolute;
     top: -186px;
     left: 40px;
@@ -534,7 +534,7 @@
   }
   footer .form::after {
     display: block;
-    content: url("/img/icon/minisnake.svg");
+    content: url("../img/icon/minisnake.svg");
     position: absolute;
     bottom: -600px;
     right: 150px;
@@ -696,10 +696,10 @@
   }
   .trn-schools-teachers .content .about-project::before {
     display: block;
-    content: url("/img/entrepreneurs/snake.svg");
+    content: url("../img/entrepreneurs/snake.svg");
     position: absolute;
     top: -250px;
-    left: 50px;
+    right: 0px;
     z-index: -1;
   }
   .trn-schools-teachers .content .materials-wrapper {

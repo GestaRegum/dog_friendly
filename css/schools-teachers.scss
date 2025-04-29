@@ -164,13 +164,12 @@
           -o-object-fit: cover;
           object-fit: cover;
           border-radius: 24px;
-          overflow: visible;
         }
       }
 
       &::before {
         display: block;
-        content: url("/img/entrepreneurs/snake.svg");
+        content: url("../img/entrepreneurs/snake.svg");
         position: absolute;
         top: -250px;
         left: 50px;
@@ -246,7 +245,7 @@
 
               &::before {
                 display: block;
-                content: url("/img/icon/potato.svg");
+                content: url("../img/icon/potato.svg");
                 position: absolute;
                 top: -141px;
                 right: -113px;
@@ -255,7 +254,7 @@
 
               &::after {
                 display: block;
-                content: url("/img/icon/minisnake.svg");
+                content: url("../img/icon/minisnake.svg");
                 position: absolute;
                 bottom: -400px;
                 right: 50px;
@@ -281,7 +280,7 @@
     .form {
       &::before {
         display: block;
-        content: url("/img/icon/potato.svg");
+        content: url("../img/icon/potato.svg");
         position: absolute;
         top: -186px;
         left: 40px;
@@ -289,7 +288,7 @@
       }
       &::after {
         display: block;
-        content: url("/img/icon/minisnake.svg");
+        content: url("../img/icon/minisnake.svg");
         position: absolute;
         bottom: -600px;
         right: 150px;
@@ -481,16 +480,15 @@
             -o-object-fit: cover;
             object-fit: cover;
             border-radius: 24px;
-            overflow: visible;
           }
         }
 
         &::before {
           display: block;
-          content: url("/img/entrepreneurs/snake.svg");
+          content: url("../img/entrepreneurs/snake.svg");
           position: absolute;
           top: -250px;
-          left: 50px;
+          right: 0;
           z-index: -1;
         }
       }
@@ -515,11 +513,14 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 20px;
+            justify-items: center;
+
             .material {
               position: relative;
               display: flex;
               padding: 36px;
-              height: 308px;
+              height: 312px;
+              width: 377px;
               flex-direction: column;
               gap: 20px;
               border-radius: 24px;
@@ -572,7 +573,7 @@
 
                 &::before {
                   display: block;
-                  content: url("/img/icon/potato.svg");
+                  content: url("../img/icon/potato.svg");
                   position: absolute;
                   top: -141px;
                   right: -113px;
@@ -581,7 +582,7 @@
 
                 &::after {
                   display: block;
-                  content: url("/img/icon/minisnake.svg");
+                  content: url("../img/icon/minisnake.svg");
                   position: absolute;
                   bottom: -400px;
                   right: 50px;
@@ -608,7 +609,7 @@
     .form {
       &::before {
         display: block;
-        content: url("/img/icon/potato.svg");
+        content: url("../img/icon/potato.svg");
         position: absolute;
         top: -186px;
         left: 40px;
@@ -616,7 +617,7 @@
       }
       &::after {
         display: block;
-        content: url("/img/icon/minisnake.svg");
+        content: url("../img/icon/minisnake.svg");
         position: absolute;
         bottom: -600px;
         right: 150px;
@@ -800,10 +801,10 @@
 
         &::before {
           display: block;
-          content: url("/img/entrepreneurs/snake.svg");
+          content: url("../img/entrepreneurs/snake.svg");
           position: absolute;
           top: -250px;
-          left: 50px;
+          right: 0px;
           z-index: -1;
         }
       }
@@ -813,16 +814,16 @@
         margin-bottom: 105px;
 
         .swiper {
-          overflow: visible; // Важно для корректного отображения кнопок
+          overflow: visible;
 
           &-wrapper {
             display: flex;
-            align-items: stretch; // Чтобы слайды были одинаковой высоты
+            align-items: stretch;
           }
 
           &-slide {
-            height: auto; // Для правильного растяжения
-            width: auto; // Для автоматической ширины
+            height: auto;
+            width: auto;
           }
 
           &-button {
