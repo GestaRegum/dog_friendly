@@ -687,7 +687,7 @@ h3.accented.double-long::after,
     display: block;
     width: 100%;
     height: auto;
-    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" width="200" height="16" viewBox="0 0 200 16" fill="none"><path d="M2 2.16822C105.958 2.16793 269.668 0.964368 366 5.00003M4 16H364" stroke="%23D7DB2D" stroke-width="3" stroke-miterlimit="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" width="300" height="20" viewBox="0 0 300 20" fill="none"><path d="M2 2.16822C105.958 2.16793 269.668 0.964368 366 5.00003M4 16H364" stroke="%23D7DB2D" stroke-width="3" stroke-miterlimit="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>');
   }
 }
 h3.accented.curved,
@@ -855,7 +855,7 @@ input[type=checkbox].yellow-checkbox:checked::after {
   top: 0;
   left: 0;
   border: 1px solid var(--Bg-primary-lime, #d7db2d);
-  background-image: url("./img/icon/white-check.svg");
+  background-image: url("./img/icon/white-check.svg"), url("../img/icon/white-check.svg");
   background-color: var(--Bg-primary-lime, #d7db2d);
   background-position: 4px 5px;
   background-repeat: no-repeat;
